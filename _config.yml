@@ -6,3 +6,4 @@ paginate: 3
 paginate_path: "blog/page:num"
 url: /ryutech_home
 exclude: ['README.md']
+plugins: [jekyll-paginate]
