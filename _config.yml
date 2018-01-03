@@ -4,5 +4,5 @@ pygments: true
 excerpt_separator: <!--more-->
 paginate: 3
 paginate_path: "blog/page:num"
-baseurl: /ryutech_home
+url: /ryutech_home
 exclude: ['README.md']
