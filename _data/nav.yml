@@ -7,9 +7,7 @@
   children:
     - name: ECU Remapping
       path: services-remap.html
-- name: About
-  path: about.html
-  section_id: about
+      section_id: remapping
 - name: Portfolio
   path: portfolio.html
   section_id: portfolio
@@ -18,6 +16,10 @@
       #path: portfolio.html
     #- name: Portfolio single
       #path: portfolio-item.html
+- name: Contact Us
+  path: contact.html
+  section_id: contact
 - name: Blog
   path: blog/
   section_id: blog
+

@@ -55,8 +55,14 @@
                 {% endif %}
               {% endfor %}
 
-              {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}
-              {% for page in pages %} <li><a href="{{page.url}}"> {{ page.lang }} </a></li> {% endfor %}
+              <li class="has-dropdown">
+                <a href="#"> Languages </a>
+                <ul class='dropdown'>
+                  {% assign posts=site.posts | where:"section_id", page.section_id | sort: 'lang' %}{% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a></li> {% endfor %}
+
+                  {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url}}"> {{ page.lang }} </a></li> {% endfor %}
+                </ul>
+              </li>
             </ul>
           </section>
         </nav>
