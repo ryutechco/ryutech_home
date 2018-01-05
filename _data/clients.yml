@@ -1,6 +1,6 @@
 - image: quantum-tuning-logo.png
 - image: dimsport-logo.png
 - image: race-logo.png
-- image: bitbox-logo.png
+#- image: bitbox-logo.png
 - image: evc-logo.png
-- image: blank-logo.png
+#- image: blank-logo.png

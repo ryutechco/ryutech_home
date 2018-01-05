@@ -20,17 +20,7 @@ works:
 services:
   -
     - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
+      icon: level-up
       desc:
         Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
       color:
@@ -177,7 +167,6 @@ members:
     <div class='special-title centered-text'>
       <i class='icon-map'></i>
       <h2>Our services</h2>
-      <p>We are passionate about web design &amp; development</p>
       <p class='shortline'></p>
     </div>
     <div class='two spacing'></div>
@@ -186,7 +175,7 @@ members:
   {% for row in page.services %}
     <div class="row">
       {% for service in row %}
-        <div class='medium-4 large-4 columns icon-text'>
+        <div class='medium-6 large-6 columns large-centered medium-centered icon-text'>
           <i class='icon-{{service.icon}} {{service.color}}'></i>
           <h3>{{service.title}}</h3>
           <p>{{service.desc}}</p>
