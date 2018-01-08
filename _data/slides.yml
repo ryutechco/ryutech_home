@@ -1,35 +1,30 @@
 - image: slide-1.jpg
   desc_location: left
   desc:
-    <h2>This is squarebox</h2>
-    <p>A creative responsive theme.</p>
-    <div class='two spacing'></div>
-    <a class='button boxed'>View Features</a>
+    <span class="headingtext"><h2>ECU Remapping in Bangkok Thailand</h2>
+    <p>Unlock and Unleash your vehicle's potential</p>
+    <p><a href="services-remap.html" class='button boxed'>View Services</a></p></span>
 - image: slide-2.jpg
   desc_location: right
   desc:
-    <h2>Creative Design</h2>
-    <p>Focus on every detail element.</p>
-    <div class='two spacing'></div>
-    <a class='button boxed'>Learn More</a>
+    <span class="headingtext"><h2>Performance &amp; Economy Tuning</h2>
+    <h3>Up to <font color="red">30% more Power </font> &amp; <font color="green">10% fuel economy</font></h3>
+    <p><a href="services-remap.html" class='button boxed'>Learn More</a></p></span>
 - image: slide-3.jpg
   desc_location: left
   desc:
-    <h2>Responsive Design</h2>
-    <p>Let users access the theme with all devices</p>
-    <div class='two spacing'></div>
-    <a class='button boxed'>Learn More</a>
+    <span class="headingtext"><h2>Engine tuning / Remapping</h2>
+    <h3>Cars, Puck ups, Bikes, Trucks</h3>
+    <p><a href="http://thailand.quantum-tuning.com/vehicle-directory.aspx" class='button boxed'>Find your vehicle</a></p></span>
 - image: slide-4.jpg
   desc_location: right
   desc:
-    <h2>Very Easy to Use</h2>
-    <p>Almost every element could be customized</p>
-    <div class='two spacing'></div>
-    <a class='button boxed'>Learn More</a>
+    <span class="headingtext"><h2>Tuning by Professionals</h2>
+    <p>We offers tuning by qualified professionals in engine management systems</p>
+    <a href="about.html" class='button boxed'>About us</a></span>
 - image: slide-5.jpg
   desc_location: center
   desc:
-    <h2>A Beautiful &amp; Creative Theme</h2>
-    <p>Every element is designed attentively</p>
-    <div class='two spacing'></div>
-    <a class='button boxed'>Purchase Now</a>
+    <span class="headingtext"><h2>Ryutech</h2>
+    </br><h3>ECU Remapping Services</h3>
+    <p><a href="about.html" class='button boxed'><b>Contact us now</b></a></p></span>

@@ -16,9 +16,9 @@
       #path: portfolio.html
     #- name: Portfolio single
       #path: portfolio-item.html
-- name: Contact Us
-  path: contact.html
-  section_id: contact
+- name: About
+  path: about.html
+  section_id: about
 - name: Blog
   path: blog/
   section_id: blog

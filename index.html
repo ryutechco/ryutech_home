@@ -19,11 +19,16 @@ works:
 
 services:
   -
-    - title: Web design
-      icon: level-up
+    - title: ECU Remapping Services
+      icon: download
       desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
+        Engine Control Unit (ECU) reprogramming (remapping) can improves vehicle's <font color="red"><b>performance</b></font> by up to <font color="red"><b>30%</b></font>, and/or <font color="green"><b>fuel economy</b></font> by up to <font color="green"><b>10%</b></font> without harming your engine. We offer a wide range of Performance and Economy ECU Remapping for <b>Cars, Pickups, Trucks, and Bikes</b>. For more information <a href="services-remap.html"><b>click here.</b></a>
+      color: yellow
+    - title: Advanced EGR/DPF Solution
+      icon: key
+      desc:
+        Our advance Exhaust Gas Recirculation (EGR) solution disables the EGR valves by reprogramming the software without having to remove or add any hardware. Disabling EGR results in reduced engine temperature, <b>improved throttle response and economy</b> and also can <b>lengthen engine life</b> by reducing oil contamination and carbon deposits.
+      color: yellow
 
 milestones:
   - from: 0
@@ -115,9 +120,40 @@ members:
 
 {% include slider.html %}
 
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-map'></i>
+      <h2>Our services</h2>
+      <p class='shortline'></p>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+
+  {% for row in page.services %}
+    <div class="row">
+      {% for service in row %}
+        <div class='medium-6 large-6 columns icon-text'>
+          <i class='icon-{{service.icon}} {{service.color}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% unless forloop.last %}
+      <div class="spacing"></div>
+    {% endunless %}
+  {% endfor %}
+  <div class="row centered-text">
+    <div class='medium-12 large-12 small-centered medium-centered large-centered columns button white button-text-boxed'>
+        <a href="http://thailand.quantum-tuning.com/vehicle-directory.aspx"><i class="icon-search"><b>Find your vehicle's potential</b></i></a>
+    </div>
+  </div>
+</div>
+
 {% include whys.html %}
 
-<div class='full'>
+<div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
       <i class='icon-star'></i>
@@ -128,7 +164,7 @@ members:
   </div>
 </div>
 
-<ul class='gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
+<ul class='gallery small-block-grid-2 medium-block-grid-2 large-block-grid-4'>
   {% for work in page.works %}
     <li>
       <a>
@@ -161,32 +197,6 @@ members:
 </div>
 -->
 
-
-<div class='full white'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-map'></i>
-      <h2>Our services</h2>
-      <p class='shortline'></p>
-    </div>
-    <div class='two spacing'></div>
-  </div>
-
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-6 large-6 columns large-centered medium-centered icon-text'>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-      {% endfor %}
-    </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-</div>
 
 <!--
 <div class='full bg-1'>

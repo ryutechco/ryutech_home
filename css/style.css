@@ -433,7 +433,7 @@ textarea {
   width: 100%;
 }
 .orbit-container .orbit-slides-container li .orbit-caption {
-  top: 60px;
+  top: 20px;
 }
 .orbit-container img {
   width: 100%;
@@ -457,7 +457,8 @@ textarea {
 }
 
 @media only screen and (max-width: 480px) {
-  .orbit-caption h2, .orbit-caption p {
+  .orbit-caption h2
+, .orbit-caption p {
     font-size: 18px;
     position: relative;
     top: -50px;
@@ -727,4 +728,74 @@ ul.info i:hover {
 
 .en:lang(en),.th:lang(th){
     font-weight: bold;
+}
+
+.button-text-boxed i {
+  font-size: 30px;
+  color: #fcbf31;
+  border: 1px solid #fcbf31;
+  padding: 35px 0;
+  display: block;
+  width: 88%;
+  margin: 0 auto 25px;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.button-text-boxed:hover i {
+  background: #fcbf31;
+  color: white;
+}
+
+.headingtext h2{
+  font-size: 3vw;
+}
+
+.headingtext h3{
+  font-size: 3vw;
+}
+
+
+.headingtext p{
+  font-size: 3vw;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.headingtext a{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.orbit-caption h3 {
+  color: white;
+  display: inline-block;
+  letter-spacing: 3px;
+}
+
+/*get in touch*/
+.contact-info i {
+  font-size: 50px;
+  color: grey;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.contact-info h3 {
+  font-size: 22px;
+  color: grey;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:9px;
+}
+
+.contact-info a {
+  color: white;
+  font-size: 24px;
+  vertical-align: 10px;
 }
