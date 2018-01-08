@@ -1,4 +1,4 @@
-- image: slider_high.jpg
+- image: slider_high.jpg #Should change to 1600*750
   desc_location: left
   desc:
     <span class="headingtext"><h2>ECU Remapping in Bangkok Thailand</h2>
