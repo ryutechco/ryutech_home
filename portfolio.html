@@ -4,76 +4,35 @@ title: Portfolio
 section_id: portfolio
 lang: en
 categories:
-  - name: Graphic Design
-  - name: Web Design
-  - name: Brand
-  - name: Development
-  - name: Print
+  - name: ECU Remapping
+  - name: OBD Remapping
+  - name: Chip Tuning
 
 works:
   - image: work-1.jpg
     title: Beautiful Girl
     categories:
-      - name: Graphic Design
+      - name: ECU Remapping
+      - name: OBD Remapping
+    desc: Original 25HP <p>Tuned 50HP</p>
   - image: work-2.jpg
     title: Look at me
     categories:
-      - name: Web Design
-      - name: Print
+      - name: ECU Remapping
+      - name: Chip Tuning
+    desc: Original 25HP <p>Tuned 50HP</p>
   - image: work-3.jpg
     title: Am I cute
     categories:
-      - name: Brand
+      - name: ECU Remapping
+      - name: Chip Tuning
+    desc: Original 25HP <p>Tuned 50HP</p> 
   - image: work-4.jpg
     title: Umbrella
     categories:
-      - name: Development
-  - image: work-5.jpg
-    title: Canned Bros
-    categories:
-      - name: Print
-      - name: Brand
-  - image: work-6.jpg
-    title: Hale
-    categories:
-      - name: Web Design
-  - image: work-7.jpg
-    title: A beautiful day
-    categories:
-      - name: Web Design
-  - image: work-8.jpg
-    title: Flower book
-    categories:
-      - name: Graphic Design
-  - image: work-1.jpg
-    title: Beautiful Girl
-    categories:
-      - name: Development
-      - name: Print
-  - image: work-2.jpg
-    title: Look at me
-    categories:
-      - name: Brand
-  - image: work-3.jpg
-    title: Am I cute
-    categories:
-      - name: Web Design
-  - image: work-4.jpg
-    title: Umbrella
-    categories:
-      - name: Print
-  - image: work-5.jpg
-    title: Canned Bros
-    categories:
-      - name: Graphic Design
-  - image: work-6.jpg
-    title: Hale
-    categories:
-      - name: Development
-  - image: work-7.jpg
-    title: A beautiful day
-    categories:
-      - name: Print
+      - name: ECU Remapping
+      - name: OBD Remapping
+    desc: Original 25HP <p>Tuned 50HP</p>
 ---
 
 <div class='full'>
@@ -107,9 +66,10 @@ works:
           <a>
             <img src='{{site.url}}/images/{{work.image}}'>
             <div class='overlay'>
-              <div class='thumb-info'>
+              <div>
                 <h3>{{work.title}}</h3>
                 <p>{{ work.categories | map:"name" | join:" &amp; " }}</p>
+                <p>{{ work.desc}}</p>
               </div>
             </div>
           </a>
