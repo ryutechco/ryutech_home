@@ -796,25 +796,29 @@ ul.info i:hover {
 /*get in touch*/
 .contact-info i {
   font-size: 50px;
-  color: grey;
+  color: white;
   margin-bottom: 15px;
   display: block;
 }
 
 .contact-info h3 {
   font-size: 22px;
-  color: grey;
+  color: white;
   text-transform: uppercase;
   margin-bottom: 0;
   float:left;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top:9px;
+  padding-top:10px;
+}
+
+.contact-info h3 a {
+  vertical-align: 0px;
 }
 
 .contact-info a {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   vertical-align: 10px;
 }
 

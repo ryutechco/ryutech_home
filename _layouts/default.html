@@ -91,10 +91,10 @@
               <li class="has-dropdown">
                 <a href="#"> 
                   {% if page.lang=='en' %}
-                      Languages
-                    {% else %}
-                      เลือกภาษา
-                    {% endif %}
+                    Languages
+                  {% else %}
+                    เลือกภาษา
+                  {% endif %}
                 </a>
                 <ul class='dropdown'>
                   {% assign posts=site.posts | where:"section_id", page.section_id | sort: 'lang' %}{% for post in posts %} <li><a href="{{ post.url | prepend: site.url }}" class="{{ post.lang }}">
