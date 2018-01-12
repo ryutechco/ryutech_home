@@ -20,7 +20,7 @@
           <ul class='title-area'>
             <li class='name'>
               <h1>
-                <a href='/'> <img src='{{site.url}}/images/ryutech-logo.png'> </a>
+                <a href='{{site.url}}/'> <img src='{{site.url}}/images/ryutech-logo.png'> </a>
                 <!--<a href='/'>{{ site.name }}</a>-->
               </h1>
             </li>
@@ -92,7 +92,7 @@
                     {% endif %}
                 </a>
                 <ul class='dropdown'>
-                  {% assign posts=site.posts | where:"section_id", page.section_id | sort: 'lang' %}{% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
+                  {% assign posts=site.posts | where:"section_id", page.section_id | sort: 'lang' %}{% for post in posts %} <li><a href="{{ post.url | prepend: site.url }}" class="{{ post.lang }}">
                     {% if post.lang=='en' %}
                       English
                     {% else %}
@@ -100,7 +100,7 @@
                     {% endif %}
                   </a></li> {% endfor %}
 
-                  {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url | prepend: site.baseurl }}"> 
+                  {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url | prepend: site.url }}"> 
                     {% if page.lang=='en' %}
                       English
                     {% else %}
