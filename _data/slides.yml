@@ -4,27 +4,47 @@
     <span class="headingtext"><h2>ECU Remapping in Bangkok Thailand</h2>
     <p>Unlock and Unleash your vehicle's potential</p>
     <p><a href="services-remap.html" class='button boxed'>View Services</a></p></span>
+  desc-th:
+    <span class="headingtext"><h2>รีแมพ ECU ในกรุงเทพ และ ปริมณฑล</h2>
+    <p>ปลดล๊อค และ เพิ่มศักยภาพให้รถคุณ</p>
+    <p><a href="services-remap-th.html" class='button boxed'>รายละเอียดบริการ</a></p></span>
 - image: slide-2.jpg
   desc_location: right
   desc:
     <span class="headingtext"><h2>Performance &amp; Economy Tuning</h2>
     <h3>Up to <font color="red">30% more Power </font> &amp; <font color="green">10% fuel economy</font></h3>
     <p><a href="services-remap.html" class='button boxed'>Learn More</a></p></span>
+  desc-th:
+    <span class="headingtext"><h2>ปรับแต่งเพิ่มสมรรถนะ และ เพิ่มการประหยัดน้ำมัน</h2>
+    <h3><font color="red">แรงขึ้นสูงสุดถึง 30% </font> และ <font color="green">ประหยัดน้ำมันได้สูงสุดถึง 10%</font></h3>
+    <p><a href="services-remap-th.html" class='button boxed'>ดูข้อมูลเพิ่มเติม</a></p></span>
 - image: slide-3.jpg
   desc_location: left
   desc:
     <span class="headingtext"><h2>Engine tuning / Remapping</h2>
     <h3>Cars, Puck ups, Bikes, Trucks</h3>
     <p><a href="http://thailand.quantum-tuning.com/vehicle-directory.aspx" class='button boxed'>Find your vehicle</a></p></span>
+  desc-th:
+    <span class="headingtext"><h2>ปรับแต่งโปรแกรม / รีแมพ</h2>
+    <h3>รถยนต์ส่วนบุคคล รถกระบะ รถบรรทุก และ มอเตอร์ไซค์</h3>
+    <p><a href="http://thailand.quantum-tuning.com/vehicle-directory.aspx" class='button boxed'>ค้นหารถคุณได้ที่นี่</a></p></span>
 - image: slide-4.jpg
   desc_location: right
   desc:
     <span class="headingtext"><h2>Tuning by Professionals</h2>
     <p>We offers tuning by qualified professionals in engine management systems</p>
     <a href="about.html" class='button boxed'>About us</a></span>
+  desc-th:
+    <span class="headingtext"><h2>ปรับแต่ง จูน โดยมืออาชีพ</h2>
+    <p>เราให้บริการโดยผู้ชำนาญการในด้านระบบจัดการและควบคุมเครื่องยนต์</p>
+    <a href="about.html" class='button boxed'>เกี่ยวกับเรา</a></span>
 - image: slide-5.jpg
   desc_location: center
   desc:
     <span class="headingtext"><h2>Ryutech</h2>
     </br><h3>ECU Remapping Services</h3>
     <p><a href="about.html" class='button boxed'><b>Contact us now</b></a></p></span>
+  desc-th:
+    <span class="headingtext"><h2>ริวเทค</h2>
+    </br><h3>บริการรีแมพ ECU</h3>
+    <p><a href="about.html" class='button boxed'><b>ติดต่อเราทันที</b></a></p></span>

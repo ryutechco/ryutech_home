@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ริวเทค
+title: หน้าหลัก ริวเทค
 section_id: home
 lang: th
 works:
@@ -16,51 +16,19 @@ works:
   - image: work-4.jpg
     title: Umbrella
     category: Design &amp; Development
-  - image: work-5.jpg
-    title: Canned Bros
-    category: Design &amp; Development
-  - image: work-6.jpg
-    title: Hale
-    category: Design &amp; Development
-  - image: work-7.jpg
-    title: A beautiful day
-    category: Design &amp; Development
-  - image: work-8.jpg
-    title: Flower book
-    category: Design &amp; Development
 
 services:
   -
-    - title: Web design
-      icon: layout
+    - title: บริการรีแมพ ECU
+      icon: download
       desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-  -
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+        การโปรแกรม (รีแมพ) กล่องควบคุมเครื่องยนต์ (Engine Control Unit) หรือ ECU (remapping) สามารถ<font color="red"><b>เพิ่มสมรรถนะ</b></font>ได้มากถึง <font color="red"><b>30% </b></font> และ/หรือ สามารถเพิ่มการ<font color="green"><b>ประหยัดน้ำมัน</b></font>ได้สูงถึง <font color="green"><b>10%</b></font> โดยไม่เป็นอันตรายต่อเครื่องยนต์ เรามีบริการทั้งสำหรับ เพิ่มสมรรถนะ และ เพิ่มการประหยัดน้ำมัน <b>สำหรับรถโดยสาร รถกระบะ รถบรรทุก และ มอเตอร์ไซค์</b> การรีแมพสามารถทำได้ที่ <b>ศูนย์บริการไดโน่</b> หรือ <b>นอกสถานที่ โดยนัดหมาย</b> สำหรับข้อมูลเพิ่มเติมกรุณา <a href="services-remap-th.html"><b>คลิ้กที่นี่</b></a>
+
       color: yellow
-    - title: Web design
-      icon: layout
+    - title: แก้ไข/ปิด EGR โดยระบบขั้นสูง
+      icon: key
       desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+        ระบบขั้งสูงในการปิด Exhaust Gas Recirculation (EGR) นั่นเราปิด EGR โดยการโปรแกรมตัดการทำงานของ EGR โดยไม่ต้องเพิ่ม ถอด หรือตัดอุปกรณ์ของรถยนต์ การปิดการทำงานของ EGR นั้นมีผลให้<b>อุณหภูมิในเครื่องยนต์น้อยลง อัตราตอบสนองคันแร่งดีขึ้น และสามารถยืดระยะเวลาการใช้งานของเครื่องยนต์ได้</b>โดยการลดเขม่าสะสมในเครื่องยนต์
       color: yellow
 
 milestones:
@@ -153,20 +121,51 @@ members:
 
 {% include slider.html %}
 
+<div class='full white'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-map'></i>
+      <h2>บริการของเรา</h2>
+      <p class='shortline'></p>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+
+  {% for row in page.services %}
+    <div class="row">
+      {% for service in row %}
+        <div class='medium-6 large-6 columns icon-text'>
+          <i class='icon-{{service.icon}} {{service.color}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% unless forloop.last %}
+      <div class="spacing"></div>
+    {% endunless %}
+  {% endfor %}
+  <div class="row centered-text">
+    <div class='medium-12 large-12 small-centered medium-centered large-centered columns button white button-text-boxed2'>
+        <a href="http://thailand.quantum-tuning.com/vehicle-directory.aspx"><i class="icon-search"><b>ค้นหาศักยภาพรถของคุณได้ที่นี่</b></i></a>
+    </div>
+  </div>
+</div>
+
 {% include whys.html %}
 
-<div class='full'>
+<div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
       <i class='icon-star'></i>
-      <h2>Portfolio</h2>
-      <p>Our best and featured works so far</p>
+      <h2>ผลงาน</h2>
+      <p>ผลงานที่เราภูมิใจและดีที่สุด</p>
       <p class='shortline'></p>
     </div>
   </div>
 </div>
 
-<ul class='gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
+<ul class='gallery small-block-grid-2 medium-block-grid-2 large-block-grid-4'>
   {% for work in page.works %}
     <li>
       <a>
@@ -199,33 +198,6 @@ members:
 </div>
 -->
 
-
-<div class='full white'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-map'></i>
-      <h2>Our services</h2>
-      <p>We are passionate about web design &amp; development</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='two spacing'></div>
-  </div>
-
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-4 large-4 columns icon-text'>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-      {% endfor %}
-    </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-</div>
 
 <!--
 <div class='full bg-1'>

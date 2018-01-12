@@ -5,7 +5,12 @@
       <div class='orbit-caption caption-{{ slide.desc_location }}'>
         <div class='row'>
           <div class='large-12 columns right'>
-            {{ slide.desc }}
+            {% if page.lang=='en' %}
+              {{ slide.desc }}
+            {% else %}
+              {{ slide.desc-th }}
+            {% endif %}
+            
           </div>
         </div>
       </div>

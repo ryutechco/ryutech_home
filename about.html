@@ -4,74 +4,26 @@ title: About
 section_id: about
 lang: en
 bars:
-  - title: Web design
-    percent: 84
-  - title: Web development
+  - title: Automotive
+    percent: 75
+  - title: Embedded Systems
     percent: 95
-  - title: Site management
-    percent: 70
-  - title: Branding
-    percent: 61
+  - title: Mechanics
+    percent: 65
+  - title: Passion
+    percent: 100
 members:
   - image: member-1.png
-    name: Shirley Adkins
-    position: Founder &amp; Designer
+    name: Kasidej A.
+    position: Technical lead &amp; ECU Calibration Specialist
     desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+      Kasidej has a Master degree in Embedded Systems from University of Southampton, UK. He is a former team lead and member of Formula Student of Chulalongkorn University and University of Southampton. His experience includes intern in Gas turbine Mechanical Design and 3D Printing in Sweden, intern in OEM car control systems at a reputable Japanese ECU control systems development company. 
     socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-      - name: vimeo
-        link: #
+      - name: linkedin
+        link: https://www.linkedin.com/in/a-kasidej/
         color: yellow
       - name: mail
-        link: #
-        color: yellow
-  - image: member-2.png
-    name: Uriel Garrett
-    position: Director &amp; Project Manager
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-  - image: member-3.png
-    name: Dulce Welch
-    position: Designer &amp; Art Director
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: facebook
-        link: #
-        color: yellow
-      - name: mail
-        link: #
-        color: yellow
-  - image: member-4.png
-    name: Stephanie Morse
-    position: Developer
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: yellow
-      - name: vimeo
-        link: #
-        color: yellow
-      - name: mail
-        link: #
+        link: mailto:a.kasidej@hotmail.com
         color: yellow
 ---
 
@@ -80,7 +32,6 @@ members:
     <div class='special-title centered-text'>
       <i class='icon-users'></i>
       <h2>Who we are</h2>
-      <p>We are happy to know you are happy</p>
       <p class='shortline'></p>
     </div>
     <div class='spacing'></div>
@@ -90,9 +41,9 @@ members:
     <div class='medium-6 large-6 columns'>
       <p>
         <span class='drop-letters'>We</span>
-        are est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.
+        are passionate engineers in Electronics and Automotives. Our vision is to be the front line of Thailand in developing embedded electronics in automotive industry. We values passion, knowledge, will, learnability, and trust. 
       </p>
-      <p>Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Nihil quia et omnis blanditiis eius suscipit quos.</p>
+      <p>Ryutech Co., Ltd. was established in 2005 first to start trading CNC milling and griding machines. In the late 2017 the direction chages to Embedded Systems and Automotive. We start providing OEM ECU remapping services in partnetship with the UK's leading remapping company.</p>
     </div>
     <div class='medium-6 large-6 columns'>
       <ul class='bars'>
@@ -121,7 +72,7 @@ members:
         {% else %}
           {% assign active_class = "" %}
         {% endif %}
-        <div class='medium-3 large-3 columns'>
+        <div class='medium-3 large-3 columns medium-centered large-centered'>
           <div class='member centered-text {{active_class}}'>
             <img src='{{site.url}}/images/{{member.image}}'>
             <h3>{{member.name}}</h3>
@@ -143,6 +94,7 @@ members:
 
     <div class='three spacing'></div>
 
+    <!--
     <div class='row'>
       {% for member in page.members %}
         {% if forloop.first %}
@@ -169,8 +121,7 @@ members:
         </div>
       {% endfor %}
     </div>
-
-    <div class='three spacing'></div>
-    <div class='three spacing'></div>
+  -->
+    {% include get-in-touch.html %}
   </div>
 </div>

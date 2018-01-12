@@ -1,15 +1,23 @@
 - name: Home
+  name-th: หน้าหลัก
   path: index.html
+  path-th: index-th.html
   section_id: home
 - name: Services
+  name-th: บริการ
   path: services.html
+  path-th: services-th.html
   section_id: services
   children:
     - name: ECU Remapping
+      name-th: บริการีแมพ ECU
       path: services-remap.html
+      path-th: services-remap-th.html
       section_id: remapping
 - name: Portfolio
+  name-th: ผลงาน
   path: portfolio.html
+  path-th: portfolio-th.html
   section_id: portfolio
   #children:
     #- name: Portfolio
@@ -17,9 +25,11 @@
     #- name: Portfolio single
       #path: portfolio-item.html
 - name: About
+  name-th: เกี่ยวกับเรา
   path: about.html
+  path-th: about-th.html
   section_id: about
-- name: Blog
-  path: blog/
-  section_id: blog
+#- name: Blog
+  #path: blog/
+  #section_id: blog
 

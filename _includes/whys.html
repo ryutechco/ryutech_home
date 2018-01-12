@@ -2,7 +2,11 @@
   <div class='row'>
     <div class='special-title centered-text'>
       <i class='icon-login'></i>
-      <h2>Why choose us</h2>
+      {% if page.lang=='en' %}
+        <h2>Why choose us</h2>
+      {% else %}
+        <h2>ทำไมถึงต้องเลือกเรา</h2>
+      {% endif %}
       <p class='shortline'></p>
     </div>
   </div>
@@ -16,8 +20,14 @@
       {% endif %}
       <div class='medium-3 large-3 columns icon-text-{{shape}}2'>
         <i class='icon-{{ why.icon }}'></i>
-        <h3>{{ why.title }}</h3>
-        <p>{{ why.desc }}</p>
+        {% if page.lang=='en' %}
+          <h3>{{ why.title }}</h3>
+          <p>{{ why.desc }}</p>
+        {% else %}
+          <h3>{{ why.title-th }}</h3>
+          <p>{{ why.desc-th }}</p>
+        {% endif %}
+       
       </div>
     {% endfor %}
   </div>
