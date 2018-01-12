@@ -100,7 +100,7 @@
                     {% endif %}
                   </a></li> {% endfor %}
 
-                  {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url}}"> 
+                  {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url | prepend: site.baseurl }}"> 
                     {% if page.lang=='en' %}
                       English
                     {% else %}
