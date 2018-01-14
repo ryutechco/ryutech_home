@@ -230,6 +230,20 @@ h1, h2, h3, h4 {
   transition: color 0.2s linear;
 }
 
+.icon-text-boxed h3 {
+  font-size: 88px;
+  color: #fcbf31;
+  border: 1px solid #fcbf31;
+  padding: 35px 0;
+  display: block;
+  width: 88%;
+  margin: 0 auto 35px;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
 .icon-text-boxed:hover i {
   background: #fcbf31;
   color: white;
@@ -860,6 +874,11 @@ ul.info i:hover {
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
 }
+
+.icon-text-boxed2 h3 {
+  font-size: 24px;
+}
+
 
 .icon-text-boxed2:hover i {
   background: #fcbf31;

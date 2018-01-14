@@ -1,19 +1,19 @@
 ---
 layout: default
-title: ECU Remapping
+title: รีแมพ ECU
 section_id: remapping
 lang: th
 services:
   -
     - title: What is ECU?
-      icon: layout
+      icon: folder
       desc:
         In modern cars, the engine is controlled electronically with the help of electronic control device called <b>Engine Control Unit (ECU)</b>. The ECU controls all of the components related to the engine such as fuel pump, cooler fan, injectors, spark plugs, etc. ECU contains all of the algorithms for operating the engine. ECU can be located inside of the cockpit, or in the engine bay. 
         <p>There are many OEM ECU manufacturers such as Bosch, Siemens, Denso, etc. However, in motorsports, they need to be able to contol and modify every output of the ECU which can't be done with OEM equipments. This can be done with aftermarket ECU such as MoTec, Haltech, etc.
       color:
       img: ecu.png
     - title: What is ECU Remapping?
-      icon: layout
+      icon: equailizer
       desc:
         ECU Reprogramming or Remapping is the process of modifying the data read from the ECU. The standard vehicle engine control maps stored in the ECU are read using professional equipment. We then make adjustments to the engine control parameters such as <b>fuel pressure, injection quantity, boost pressure, ignition, and throttle control</b>. These parameters changes the behavior of the engine, performance, and drivability.
         <p>The standard maps from the vehicle manufacturer was developed with multiple consideration factors taken such as all driving conditions, component safety factors, and regions that the model are sold. In order to meet all of the requirements, the maps are calibrated well under the limits or the optimum power. This gap between the original maps and the limits are the <b>‘hidden’</b> performances that ECU remapping will unleash.</p>
@@ -81,7 +81,8 @@ services:
             <div class="centered-text"><img src='{{site.url}}/images/service-remap/{{service.img}}'></div>
           {% endif %}
           </br>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
+          <!--<i class='icon-{{service.icon}} {{service.color}}'></i>-->
+          <i class='fa fa-{{service.icon}} fa-lg {{service.color}}'></i>
           <h3>{{service.title}}</h3>
           <p>{{service.desc}}</p>
         </div>
