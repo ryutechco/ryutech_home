@@ -20,9 +20,9 @@ works:
 services:
   -
     - title: ECU Remapping Services
-      icon: download
+      icon: car
       desc:
-        Engine Control Unit (ECU) reprogramming (remapping) can improves vehicle's <font color="red"><b>performance</b></font> by up to <font color="red"><b>30%</b></font>, and/or <font color="green"><b>fuel economy</b></font> by up to <font color="green"><b>10%</b></font> without harming your engine. We offer a wide range of Performance and Economy ECU Remapping for <b>Cars, Pickups, Trucks, and Bikes</b>. Remapping can be done <b>at a dyno facility</b> or <b>mobile at an appointed place.</b> For more information <a href="services-remap.html"><b>click here.</b></a>
+        Engine Control Unit (ECU) reprogramming (remapping) can improves vehicle's <font color="red"><b>performance</b></font> by up to <font color="red"><b>30%</b></font>, and/or <font color="green"><b>fuel economy</b></font> by up to <font color="green"><b>10%</b></font> without harming your engine. We offer a wide range of Performance and Economy ECU Remapping for <b>Cars, Pickups, Trucks, and Bikes</b>. Remapping can be done <b>at a dyno facility</b> or <b>mobile at an appointed place.</b> For more information <a href="{{site.url}}/services-remap.html"><b>click here.</b></a>
       color: yellow
     - title: Advanced EGR/DPF Solution
       icon: key
@@ -134,7 +134,7 @@ members:
     <div class="row">
       {% for service in row %}
         <div class='medium-6 large-6 columns icon-text'>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
+          <i class='fa fa-lg fa-{{service.icon}} {{service.color}}'></i>
           <h3>{{service.title}}</h3>
           <p>{{service.desc}}</p>
         </div>
