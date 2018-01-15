@@ -494,6 +494,18 @@ textarea {
   letter-spacing: 3px;
 }
 
+.orbit-caption p {
+  color: white;
+  -webkit-text-stroke: 0.5px grey;
+}
+
+.orbit-caption p a {
+  color: white;
+  font-size: 3vw;
+  -webkit-text-stroke: none;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 480px) {
   .orbit-caption h2
 , .orbit-caption p {

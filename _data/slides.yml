@@ -1,4 +1,4 @@
-- image: slider_high.jpg #Should change to 1600*800
+- image: slide-1.jpg #Should change to 1600*800
   desc_location: left
   desc:
     <span class="headingtext"><h2>ECU Remapping in Bangkok Thailand</h2>
@@ -12,11 +12,11 @@
   desc_location: right
   desc:
     <span class="headingtext"><h2>Performance &amp; Economy Tuning</h2>
-    <h3>Up to <font color="red">30% more Power </font> &amp; <font color="green">10% fuel economy</font></h3>
+    <h3>Up to <font color="red">30% more Power </font> &amp; <font color="lightgreen">10% fuel economy</font></h3>
     <p><a href="services-remap.html" class='button boxed'>Learn More</a></p></span>
   desc-th:
     <span class="headingtext"><h2>ปรับแต่งเพิ่มสมรรถนะ และ เพิ่มการประหยัดน้ำมัน</h2>
-    <h3><font color="red">แรงขึ้นสูงสุดถึง 30% </font> และ <font color="green">ประหยัดน้ำมันได้สูงสุดถึง 10%</font></h3>
+    <h3><font color="red">แรงขึ้นสูงสุดถึง 30% </font> และ <font color="lightgreen">ประหยัดน้ำมันได้สูงสุดถึง 10%</font></h3>
     <p><a href="services-remap-th.html" class='button boxed'>ดูข้อมูลเพิ่มเติม</a></p></span>
 - image: slide-3.jpg
   desc_location: left
