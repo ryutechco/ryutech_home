@@ -897,3 +897,12 @@ ul.info i:hover {
   background: #fcbf31;
   color: white;
 }
+
+.button.boxed2 {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: #fcbf31;
+  color: white;
+}
+.button.boxed2:hover {
+  background: none;
+}
