@@ -849,9 +849,10 @@ ul.info i:hover {
 }
 
 .contact-info a {
-  color: white;
+  color: grey;
   font-size: 20px;
   vertical-align: 10px;
+  font-weight: bold;
 }
 
 .button-text-boxed2 i {
