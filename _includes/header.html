@@ -1,0 +1,129 @@
+<header>
+    <nav class="container navigation">
+        <div class="row">
+            <!-- NAV LEFT -->
+            <div class="col-sm navigation-group">
+                <a href="#" class="navigation-links">Company</a>
+                <a href="#" class="navigation-links">Knowledge</a>
+                <a href="#" class="navigation-links">Portfolio</a>
+            </div> <!-- END NAV LEFT -->
+            
+            <!-- LOGO -->
+            <div class="col-sm-auto">
+                <img class="logo" src="{{site.url}}/images/logo.svg" alt="Ryutech">
+            </div> <!-- END LOGO -->
+
+            <!-- NAV RIGHT -->
+            <div class="col-sm navigation-group">
+                <a href="#" class="navigation-links">Services</a>
+                <a href="#" class="navigation-links">Products</a>
+                <a href="#" class="navigation-links">News Update</a>
+            </div> <!-- END NAV RIGHT -->
+        </div>
+    </nav>
+</header>
+
+
+<div class='contain-to-grid sticky'>
+    <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+        <ul class='title-area'>
+        <li class='name'>
+            <h1>
+            {% if page.lang=='en' %}
+                <a href='{{site.url}}/index.html'> <img src='{{site.url}}/images/ryutech-logo.png'> </a>
+            {% else %}
+                <a href='{{site.url}}/index-th.html'> <img src='{{site.url}}/images/ryutech-logo.png'> </a>
+            {% endif %}
+            
+            <!--<a href='/'>{{ site.name }}</a>-->
+            </h1>
+        </li>
+        <li class='toggle-topbar menu-icon'>
+            <a href='#'>Menu</a>
+        </li>
+        </ul>
+        <section class='top-bar-section'>
+        <ul class="right">
+            {% if page.lang=='en' %}
+            {% for item in site.data.nav %}
+                {% if item.section_id == page.section_id %}
+                {% assign active_class = "active" %}
+                {% else %}
+                {% assign active_class = "" %}
+                {% endif %}
+
+                {% if item.children %}
+                <li class="has-dropdown {{active_class}}">
+                    <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                    <ul class='dropdown'>
+                    {% for child in item.children %}
+                        <li>
+                        <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li class="{{active_class}}">
+                    <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            {% else %}
+            {% for item in site.data.nav %}
+                {% if item.section_id == page.section_id %}
+                {% assign active_class = "active" %}
+                {% else %}
+                {% assign active_class = "" %}
+                {% endif %}
+
+                {% if item.children %}
+                <li class="has-dropdown {{active_class}}">
+                    <a href="{{site.url}}/{{ item.path-th }}">{{ item.name-th }}</a>
+                    <ul class='dropdown'>
+                    {% for child in item.children %}
+                        <li>
+                        <a href="{{site.url}}/{{ child.path-th }}">{{ child.name-th }}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li class="{{active_class}}">
+                    <a href="{{site.url}}/{{ item.path-th }}">{{ item.name-th }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            {% endif %}
+            
+
+            <li class="has-dropdown">
+            <a href="#"> 
+                {% if page.lang=='en' %}
+                Languages
+                {% else %}
+                เลือกภาษา
+                {% endif %}
+            </a>
+            <ul class='dropdown'>
+                {% assign posts=site.posts | where:"section_id", page.section_id | sort: 'lang' %}{% for post in posts %} <li><a href="{{ post.url | prepend: site.url }}" class="{{ post.lang }}">
+                {% if post.lang=='en' %}
+                    English
+                {% else %}
+                    ภาษาไทย
+                {% endif %}
+                </a></li> {% endfor %}
+
+                {% assign pages=site.pages | where:"section_id", page.section_id | sort: 'lang' %}{% for page in pages %} <li><a href="{{page.url | prepend: site.url }}"> 
+                {% if page.lang=='en' %}
+                    English
+                {% else %}
+                    ภาษาไทย
+                {% endif %}
+                </a></li> {% endfor %}
+            </ul>
+            </li>
+        </ul>
+        </section>
+    </nav>
+</div>

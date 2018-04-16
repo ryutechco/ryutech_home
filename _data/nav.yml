@@ -29,7 +29,7 @@
   path: about.html
   path-th: about-th.html
   section_id: about
-#- name: Blog
-  #path: blog/
-  #section_id: blog
+- name: Blog
+  path: blog/
+  section_id: blog
 

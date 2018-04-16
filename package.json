@@ -1,0 +1,28 @@
+{
+  "name": "ryutech_home",
+  "version": "1.0.0",
+  "description": "1. For full documentation, please visit http://jekyllrb.com/docs/home/ 2. If you have any other questions, please contact honryou@gmail.com for support.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryutechco/ryutech_home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryutechco/ryutech_home/issues"
+  },
+  "homepage": "https://github.com/ryutechco/ryutech_home#readme"
+}

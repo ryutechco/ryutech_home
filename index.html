@@ -180,6 +180,30 @@ members:
   {% endfor %}
 </ul>
 
+{% for post in site.posts limit:3 %}
+  <div class='post'>
+    <div class='timestamp left text-center'>
+      <span class='month'>{{ post.date | date: "%h" }}</span>
+      <span class='date'>{{ post.date | date: "%d" }}</span>
+    </div>
+    <div class='info'>
+      <h3>
+        <a href='{{site.url}}{{post.url}}' {% if forloop.first == true %}style='color:red'{% endif %}>{{ post.title }}</a>
+      </h3>
+      <p>
+        By
+        <span class='author'>{{post.author}}</span>
+        |
+        <a href='single.html#comments'>Comments 6</a>
+      </p>
+    </div>
+    <div class='content'>
+      {{post.excerpt}}
+      <a class='button' href='{{site.url}}{{post.url}}'>Read more</a>
+    </div>
+  </div>
+{% endfor %}
+
 <!--
 <div class='full dark-blue no-padding'>
   <div class='two spacing'></div>
