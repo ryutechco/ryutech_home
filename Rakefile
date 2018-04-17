@@ -1,3 +1,3 @@
 task "assets:precompile" do
-  exec("jekyll build")
+  exec("jekyll build -d _site/ryutech_home")
 end
