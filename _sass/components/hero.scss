@@ -1,0 +1,30 @@
+.hero {
+    &-section {
+        padding: 6rem 0;
+
+        &--secondary {
+            background-color: $color-secondary;
+        }
+    }
+
+    &-header {
+        font-size: 10rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        display: block;
+
+        &--sub {
+            font-size: 6rem;
+        }
+    }
+
+    &-paragraph {
+        font-size: 1.9rem;
+        margin-bottom: 4rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
