@@ -1,0 +1,33 @@
+.footer {
+    &-nav {
+        background-color: $color-primary-normal;
+        color: $color-white;
+        padding: 12rem 0 5rem;
+
+        -webkit-clip-path: polygon(20% 5rem, 80% 5rem, 86% 0, 100% 0, 100% 100%, 0 100%, 0 0, 14% 0);
+        clip-path: polygon(20% 5rem, 80% 5rem, 86% 0, 100% 0, 100% 100%, 0 100%, 0 0, 14% 0);
+
+        &-header {
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        &-menu {
+            margin: 0;
+            padding: 0;
+            
+            li {
+                list-style: none;
+            }
+        } 
+    }
+
+    &-copyright {
+        background-color: $color-primary-dark;
+        color: $color-white;
+        padding: 1.3rem;
+        text-align: right;
+        text-transform: uppercase;
+    }
+}
