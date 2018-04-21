@@ -8,22 +8,26 @@
     }
 
     &-header {
-        font-size: 2.4rem;
-        font-weight: bold;
+        font-size: 2.5rem;
+        font-weight: 700;
         padding-bottom: 1.5rem;
         margin-bottom: 1.8rem;
         border-bottom: .4rem solid $color-grey-1;
+        color: $color-primary-normal;
     }
 
     &-content {
         color: $color-grey-1;
+        font-size: 2.2rem;
     }
 
     &-more {
         text-align: right;
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
 
         a {
-            text-transform: uppercase;
             color: $color-grey-1;
         }
     }
@@ -32,10 +36,6 @@
         .blog-grid{
             &-img {
                 height: 20rem;
-            }
-
-            &-header {
-                font-size: 1.8rem;
             }
         }
     }

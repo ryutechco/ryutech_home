@@ -1,9 +1,45 @@
+@font-face {
+    font-family: 'DB Hevelthaica Cond';
+    src: url('../fonts/db_helvethaica_x_thin_cond_v3.2-webfont.woff2') format('woff2'),
+         url('../fonts/db_helvethaica_x_thin_cond_v3.2-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Hevelthaica Cond';
+    src: url('../fonts/db_helvethaica_x_cond_v3.2-webfont.woff2') format('woff2'),
+         url('../fonts/db_helvethaica_x_cond_v3.2-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'DB Hevelthaica Cond';
+    src: url('../fonts/db_helvethaica_x_bd_cond_v3.2-webfont.woff2') format('woff2'),
+         url('../fonts/db_helvethaica_x_bd_cond_v3.2-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DB Hevelthaica Cond';
+    src: url('../fonts/db_helvethaica_x_blk_cond_v3.2-webfont.woff2') format('woff2'),
+         url('../fonts/db_helvethaica_x_blk_cond_v3.2-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'DB Hevelthaica Cond', 'Roboto Condensed', sans-serif;
     font-size: 1.6rem;
     color: $color-text;
 }
 
 a {
     color: $color-primary-light;
+}
+
+p {
+    font-size: 2.7rem;
 }

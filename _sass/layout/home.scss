@@ -1,4 +1,39 @@
-.spacer {
-    height: 68rem;
+#what {
     background: linear-gradient($color-primary-dark,$color-secondary);
+    color: $color-white;
+    padding-top: 6rem;
+
+    .what {
+        &-box {
+            display: flex;
+            margin-top: 6.5rem;
+
+            &:last-child {
+                height: 34rem;
+            }
+        }
+
+        &-cell {
+            width: 50%;
+            padding: 0 2rem;
+        }
+
+        &-header {
+            font-size: 5rem;
+            font-weight: 700;
+            line-height: .85;
+            text-transform: uppercase;
+        }
+    }
+
+    &-icon-1 {
+        width: 17rem;
+        transform: translate(4.5rem,-15rem);
+    }
+
+    &-icon-2 {
+        height: 43.5rem;
+        width: 26.5rem;
+        transform: translate(-10rem,-10rem)
+    }
 }

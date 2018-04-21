@@ -3,24 +3,27 @@
         padding: 6rem 0;
 
         &--secondary {
-            background-color: $color-secondary;
+            background-color: rgba($color-secondary,.5);
+
         }
     }
 
     &-header {
-        font-size: 10rem;
-        font-weight: bold;
+        font-size: 15rem;
+        font-weight: 900;
         text-transform: uppercase;
+        line-height: .8;
         margin: 0;
         display: block;
 
         &--sub {
-            font-size: 6rem;
+            font-size: 8.5rem;
+            line-height: 1;
         }
     }
 
     &-paragraph {
-        font-size: 1.9rem;
+        font-size: 2.7rem;
         margin-bottom: 4rem;
 
         &:last-child {
