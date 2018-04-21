@@ -38,22 +38,27 @@
     }
 }
 
-.git {
-    &-list {
-        list-style: none;
+#git {
+    padding-bottom: 0;
+    margin-bottom: -5rem;
 
-        li {
-            font-size: 3.7rem;
-            font-weight: 700;
-            color: $color-grey-1;
-            position: relative;
+    .git {
+        &-list {
+            list-style: none;
+
+            li {
+                font-size: 3.7rem;
+                font-weight: 700;
+                color: $color-grey-1;
+                position: relative;
+            }
         }
-    }
 
-    &-icon {
-        width: 3.5rem;
-        position: absolute;
-        left: -5rem;
-        top: 1.2rem;
+        &-icon {
+            width: 3.5rem;
+            position: absolute;
+            left: -5rem;
+            top: 1.2rem;
+        }
     }
 }
