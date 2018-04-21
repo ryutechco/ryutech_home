@@ -37,3 +37,23 @@
         transform: translate(-10rem,-10rem)
     }
 }
+
+.git {
+    &-list {
+        list-style: none;
+
+        li {
+            font-size: 3.7rem;
+            font-weight: 700;
+            color: $color-grey-1;
+            position: relative;
+        }
+    }
+
+    &-icon {
+        width: 3.5rem;
+        position: absolute;
+        left: -5rem;
+        top: 1.2rem;
+    }
+}
