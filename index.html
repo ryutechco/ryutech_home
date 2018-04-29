@@ -128,8 +128,8 @@ members:
         <div class="col-sm-5">
           <!-- HEADER -->
           <h1>
-            <span class="hero-header hero-header--main">Welcome to</span>
-            <span class="hero-header hero-header--sub">Ryutech Automotive Tuning Center</span>
+            <span class="hero-header hero-header--main">Welcome<br>to</span>
+            <span class="hero-header hero-header--sub">Ryutech<br>Automotive<br>Tuning Center</span>
           </h1>
           <!-- END HEADER -->
         </div>
@@ -155,34 +155,34 @@ members:
     <div class="container">
       <!-- WHAT BOX -->
       <div class="what-box">
-        <img id="what-icon-1" src="{{site.url}}/images/what.svg">
+        <img id="what-icon-1" class="d-none d-sm-block" src="{{site.url}}/images/what.svg">
 
-        <div class="what-cell">
+        <div class="what-cell what-cell--wide">
           <h2 class="what-header">What is<br>ECU Remapping ?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus. Animi dolorem vitae necessitatibus nobis eius qui nostrum culpa quidem adipisci minus quo, dolores soluta dignissimos ut! Vero, id repellendus.
           </p>
         </div>
 
-        <div class="what-cell" style="width: 355px; height: 220px; background-color: #404041;">
-          
+        <div class="what-cell what-cell--narrow p-0">
+          <div style="height: 220px; background-color: #404041;"></div>
         </div>
       </div> <!-- END WHAT BOX -->
 
       <!-- WHAT BOX -->
       <div class="what-box">
-        <div class="what-cell" style="width: 355px; height: 220px; background-color: #404041;">
-
+        <div class="what-cell what-cell--narrow p-0">
+          <div style="height: 220px; background-color: #404041;"></div>
         </div>
 
-        <div class="what-cell">
+        <div class="what-cell what-cell--wide">
           <h2 class="what-header">What is<br>dynometer ?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus. Animi dolorem vitae necessitatibus nobis eius qui nostrum culpa quidem adipisci minus quo, dolores soluta dignissimos ut! Vero, id repellendus.
           </p>
         </div>
 
-        <img id="what-icon-2" src="{{site.url}}/images/what.svg">
+        <img id="what-icon-2" class="d-none d-sm-block" src="{{site.url}}/images/what.svg">
       </div> <!-- END WHAT BOX -->
     </div> <!-- END WHAT CONTAINER -->
   </div> <!-- END WHAT -->
@@ -270,14 +270,18 @@ members:
           <div class="col-sm-5">
             <!-- BLOG GRID -->
             <div class="blog-grid">
-              <div class="blog-grid-img"></div>
-              <h2 class="blog-grid-header">
-                Lorem ipsum dolor sit amet consectetur
-              </h2>
-              <p class="blog-grid-content">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
-              </p>
-              <div class="blog-grid-more"><a href="#">See more</a></div>
+              <div class="blog-grid-cell blog-grid-img">
+                <div style="background-color: #1F305F; height: 100px;"></div>
+              </div>
+              <div class="blog-grid-cell blog-grid-text">
+                <h2 class="blog-grid-header">
+                  Lorem ipsum dolor sit amet consectetur
+                </h2>
+                <p class="blog-grid-content">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
+                </p>
+                <div class="blog-grid-more"><a href="#">See more</a></div>
+              </div>
             </div> <!-- END BLOG GRID -->
           </div> <!-- END LEFT -->
 
@@ -288,53 +292,69 @@ members:
               <div class="col-sm-6">
                 <!-- BLOG GRID -->
                 <div class="blog-grid blog-grid--small">
-                  <div class="blog-grid-img"></div>
-                  <h2 class="blog-grid-header">
-                    Lorem ipsum dolor sit amet consectetur
-                  </h2>
-                  <p class="blog-grid-content">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
-                  </p>
-                  <div class="blog-grid-more"><a href="#">See more</a></div>
+                  <div class="blog-grid-cell blog-grid-img">
+                    <div style="background-color: #1F305F; height: 100px;"></div>
+                  </div>
+                  <div class="blog-grid-cell blog-grid-text">
+                    <h2 class="blog-grid-header">
+                      Lorem ipsum dolor sit amet consectetur
+                    </h2>
+                    <p class="blog-grid-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
+                    </p>
+                    <div class="blog-grid-more"><a href="#">See more</a></div>
+                  </div>
                 </div> <!-- END BLOG GRID -->
               </div>
               <div class="col-sm-6">
                 <!-- BLOG GRID -->
                 <div class="blog-grid blog-grid--small">
-                  <div class="blog-grid-img"></div>
-                  <h2 class="blog-grid-header">
-                    Lorem ipsum dolor sit amet consectetur
-                  </h2>
-                  <p class="blog-grid-content">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
-                  </p>
-                  <div class="blog-grid-more"><a href="#">See more</a></div>
+                  <div class="blog-grid-cell blog-grid-img">
+                    <div style="background-color: #1F305F; height: 100px;"></div>
+                  </div>
+                  <div class="blog-grid-cell blog-grid-text">
+                    <h2 class="blog-grid-header">
+                      Lorem ipsum dolor sit amet consectetur
+                    </h2>
+                    <p class="blog-grid-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
+                    </p>
+                    <div class="blog-grid-more"><a href="#">See more</a></div>
+                  </div>
                 </div> <!-- END BLOG GRID -->
               </div>
               <div class="col-sm-6">
                 <!-- BLOG GRID -->
                 <div class="blog-grid blog-grid--small">
-                  <div class="blog-grid-img"></div>
-                  <h2 class="blog-grid-header">
-                    Lorem ipsum dolor sit amet consectetur
-                  </h2>
-                  <p class="blog-grid-content">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
-                  </p>
-                  <div class="blog-grid-more"><a href="#">See more</a></div>
+                  <div class="blog-grid-cell blog-grid-img">
+                    <div style="background-color: #1F305F; height: 100px;"></div>
+                  </div>
+                  <div class="blog-grid-cell blog-grid-text">
+                    <h2 class="blog-grid-header">
+                      Lorem ipsum dolor sit amet consectetur
+                    </h2>
+                    <p class="blog-grid-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
+                    </p>
+                    <div class="blog-grid-more"><a href="#">See more</a></div>
+                  </div>
                 </div> <!-- END BLOG GRID -->
               </div>
               <div class="col-sm-6">
                 <!-- BLOG GRID -->
                 <div class="blog-grid blog-grid--small">
-                  <div class="blog-grid-img"></div>
-                  <h2 class="blog-grid-header">
-                    Lorem ipsum dolor sit amet consectetur
-                  </h2>
-                  <p class="blog-grid-content">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
-                  </p>
-                  <div class="blog-grid-more"><a href="#">See more</a></div>
+                  <div class="blog-grid-cell blog-grid-img">
+                    <div style="background-color: #1F305F; height: 100px;"></div>
+                  </div>
+                  <div class="blog-grid-cell blog-grid-text">
+                    <h2 class="blog-grid-header">
+                      Lorem ipsum dolor sit amet consectetur
+                    </h2>
+                    <p class="blog-grid-content">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sunt, cum a nulla corrupti quas neque nisi debitis necessitatibus aliquam at alias beatae odio. Eaque iusto hic obcaecati culpa enim.
+                    </p>
+                    <div class="blog-grid-more"><a href="#">See more</a></div>
+                  </div>
                 </div> <!-- END BLOG GRID -->
               </div>
             </div> <!-- END RIGHT ROW -->
