@@ -1,4 +1,6 @@
 .footer {
+    background-color: $color-primary-normal;
+
     &-nav {
         background-color: $color-primary-normal;
         color: $color-white;
@@ -30,5 +32,27 @@
         padding: 1.3rem;
         text-align: right;
         text-transform: uppercase;
+    }
+}
+
+.git {
+    &-header {
+        position: relative;
+    }
+
+    &-line {
+        height: 2rem;
+        width: 100%;
+        background-color: $color-primary-dark;
+        position: absolute;
+        top: 50%;
+    }
+
+    &-logo {
+        width: 15rem;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        display: block;
     }
 }
