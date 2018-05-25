@@ -1,0 +1,19 @@
+#our-team {
+    .team-member {
+        text-align: right;
+
+        &-name {
+            font-size: 5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        &-title {
+            text-transform: uppercase;
+        }
+
+        &-contact {
+            font-weight: 700;
+        }
+    }
+}
