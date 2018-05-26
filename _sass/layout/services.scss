@@ -4,7 +4,6 @@
         font-size: 4rem;
         font-weight: 700;
         text-transform: uppercase;
-        text-align: center;
 
         a {
             display: inline-block;
@@ -13,6 +12,20 @@
             &:not(:last-child) {
                 border-right: .6rem solid $color-primary-dark;
             }
+        }
+    }
+
+    #services-carousel {
+        .services-price {
+            font-size: 4rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $color-white;
+            background-color: $color-text;
+            padding: 0 3rem;
+            text-align: center;
+            width: 75%;
+            margin-left: auto;
         }
     }
 }
