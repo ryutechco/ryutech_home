@@ -11,29 +11,65 @@ services:
         We provides ECU Remapping service for OEM (Stock) ECU without having to modify or add any hardware. From the UK's leading remapping development company, Quantum Tuning, we are the authorized dealer and member of Quantum Tuning network. We offer a wide range of ECU Remapping for Cars, Pickups, Trucks, and Bikes. Remapping can be done <b>at a dyno facility</b> or <b>mobile at an appointed place.</b><a href="services-remap.html"> <b>Learn more</b></a>
 ---
 
-<div class='full'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-map'></i>
-      <h2>Our services</h2>
-      <p></p>
-      <p class='shortline'></p>
-    </div>
-    <div class='two spacing'></div>
-  </div>
-
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-12 large-12 columns icon-text'>
-          <i class='fa fa-lg fa-{{service.icon}} {{service.color}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
+<section id="services">
+  <!-- ECU MAPPING -->
+  <div id="ryutech" class="hero-section">
+    <!-- ECU MAPPING CONTAINER -->
+    <div class="container">
+      <!-- ECU MAPPING ROW -->
+      <div class="row">
+        <div class="col-sm-6">
+          <!-- HEADER -->
+          <h1>
+            <span class="hero-header hero-header--sub">ENGINE TUNING / REMAPPING SERVICES</span>
+          </h1> <!-- END HEADER -->
         </div>
-      {% endfor %}
+        <div class="col-sm-6">
+          <p>
+            Engine tuning has a long history since the first days of motorsport. In the old days, engine tuning has to be done mechanically and by mechanics. The engines in that time were completely controlled by mechanical links. The alterations have to give more power to the engine were made mechanically eg. tightening a few screws. Nowadays, fuel injection and combustion are controlled using an Engine Control Unit (ECU). To tune the engine for more power output, the parameters that the ECU uses to control such system has to be adjusted. Usually the timing, duration, pressure, and limiting factors are modified to allow the engine to output more power and torque.
+          </p>
+
+          <p>
+            We provides ECU Remapping for OEM (Stock) ECU without having to modify or add any hardware. Remapping can be done through OBD II port, or direct access to the ECU circuit board. The safest and easiest way to tune ECU is via OBD II port. Both method uses specialised tool to safely modify the contents of ECU. We use a professional tuning software, Race EVO, to make sure that the modifications are safe. We offer a wide range of ECU Remapping for Cars, Pickups, Trucks, and Bikes. There are three packages that we offer, Tailored Tuning, Performance Package, and Economy Package.
+          </p>
+
+          <p>
+            We also provides Standalone ECU tuning, such as MoTeC for motorsports competition race car. With our precision adaptive load dynamometer from Dyno Developments, we are able to tune precisely at all load points to give the best drivability for racers. We will be able to detect any faults and flaws of the engine system in race car on our dynamometer.
+          </p>
+        </div>
+      </div> <!-- ECU MAPPING ROW -->
+    </div> <!-- ECU MAPPING CONTAINER -->
+  </div> <!-- ECU MAPPING -->
+
+  <!-- SERVICES NAV -->
+  <div id="services-nav" class="hero-section">
+    <div class="container">
+      <a href="#">Tailored Tuning</a>
+      <a href="#">Performance Package</a>
+      <a href="#">Economy Package</a>
     </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-</div>
+  </div> <!-- SERVICES NAV -->
+
+  <div class="hero-section hero-section--secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <!-- HEADER -->
+          <h1>
+            <span class="hero-header hero-header--sub">TAILORED TUNING</span>
+          </h1> <!-- END HEADER -->
+
+          <p>
+            We are open to any requirements to suit your driving style, target power, or specific modifications. We will discuss the requirements with you to best match our tuning points. Your modifications to the car should be mentioned to us, this is for us to set the safety limits and realistic goals.
+          </p>
+          <p>
+            This type of tuning requires a lot of time, up to 6 hours. In an extreme cases, this might means several visits and tunes. If required, we will be able to do final touches at race tracks.
+          </p>
+          <p>
+            Note: Accident and engine failures are often the results of pushing the engine too close to its limits.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+#services {
+    #services-nav {
+        line-height: 1.3;
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            padding: 0 2.5rem;
+
+            &:not(:last-child) {
+                border-right: .6rem solid $color-primary-dark;
+            }
+        }
+    }
+}
