@@ -32,8 +32,13 @@
 
 body {
     font-family: 'DB Hevelthaica Cond', 'Roboto Condensed', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     color: $color-text;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 a {

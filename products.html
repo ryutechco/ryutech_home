@@ -1,0 +1,41 @@
+---
+layout: default
+title: Products
+section_id: products
+lang: en
+---
+
+<!-- PRODUCTS -->
+<section id="products">
+    <div class="container">
+        <ul class="nav">
+            {% for category in site.data.products %}
+                <li class="nav-item">
+                    <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ category.id }}">{{ category.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    
+        <div class="tab-content">
+            {% for category in site.data.products %}
+                <div class="tab-pane fade {% if forloop.first == true %}show active{% endif %}" id="{{ category.id }}">
+                    <ul class="nav">
+                        {% for item in category.sub-content %}
+                            <li class="nav-item">
+                                <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ item.id }}">{{ item.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <div class="tab-content">
+                        {% for item in category.sub-content %}
+                            <div class="tab-pane fade {% if forloop.first == true %}show active{% endif %}" id="{{ item.id }}">
+                                {{ item.content }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> <!-- PRODUCTS -->

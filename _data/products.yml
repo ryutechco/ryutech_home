@@ -1,0 +1,47 @@
+- title: Add-on Modules
+  id: add-on
+  sub-content:
+    - title: Rapid
+      id: rapid
+      content: <div class="row">
+                <div class="col-sm-4 d-flex flex-column align-items-center">
+                    <img src="./images/RAPID_Linea_Piatto.png">
+                    <img src="./images/page_rapid_TPM.png">
+                </div>
+                <div class="col-sm-8">
+                    <h2>THE EVOLUTION OF RAPID AUXILIARY MODULES FROM 1995 TO TODAY</h2>
+
+                    <p>
+                        Dimsport's Rapid plug&amp;play modules are a solid solution for the optimisation of turbo-diesel and turbo-petrol engines, embracing a very diverse range of needs, from the need for increased torque-power to fuel consumption optimisation in cars, trucks, tractors and boats.
+                    </p>
+
+                    <h2>FROM THE FIRST ANALOGUE MODULES...</h2>
+
+                    <p>
+                        The path taken in 1995 with the first analogue products, continued with the launch of the first digital LPI platforms for turbo-diesel engines in 2004. Pressure optimisation developed alongside this, as did the management of injection times, thus diversifying products for different applications. This led to the creation of winning XTI platforms (trucks and tractors), LPDs (Toyota) and BHV (BMW and other brands).
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <h2>...TO A BRAND NEW ‘RAPID 2.0’ PLATFORM</h2>
+
+                    <p>
+                        2014 saw the birth of the TPM technology platform, which initially focused exclusively on turbo-petrol engines and came with a professional fine-tuning software that accompanies the "legendary" calibration console.<br>
+                        In 2016 TPM technology was extended to turbo-diesel engines in order to maintain the high optimisation level guaranteed by DIMSPORT in new-generation cars too.
+                    </p>
+
+                    <p>
+                        Every Rapid module is Made in Italy.
+                    </p>
+                </div>
+            </div>
+
+    - title: How it works
+      id: how-it-works
+      content: how it works content
+
+- title: ECU Remapping tools
+  id: ecu-tools
+
+- title: Dynamometer
+  id: dynamometer
