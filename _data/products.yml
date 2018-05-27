@@ -37,11 +37,47 @@
             </div>
 
     - title: How it works
-      id: how-it-works
+      id: how-it-works-rapid
       content: how it works content
+
+    - title: Five Reasons
+      id: five-reasons
+      content: Five Reasons content
+
+    - title: Application list
+      id: application-list-1
+      content: Application list content
 
 - title: ECU Remapping tools
   id: ecu-tools
+  sub-content:
+    - title: New Genius
+      id: new-genius
+      content: New Genius content
+
+    - title: New Trasdata
+      id: new-transdata
+      content: New Trasdata content
+
+    - title: Race EVO
+      id: race-evo
+      content: Race EVO content
+
+    - title: Application list
+      id: application-list-2
+      content: Application list content
 
 - title: Dynamometer
   id: dynamometer
+  sub-content:
+    - title: How it works
+      id: how-it-works-dynometer
+      content: how it works content
+
+    - title: 2WD Adaptive load
+      id: 2wd-adaptive-load
+      content: 2WD Adaptive load content
+
+    - title: 4WD Adaptive load
+      id: 4wd-adaptive-load
+      content: 4WD Adaptive load content
