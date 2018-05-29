@@ -1,0 +1,43 @@
+#products {
+    #category-nav {
+        line-height: 2;
+        font-size: 2.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 -2.5rem;
+
+        .nav-link {
+            border: .5rem solid $color-primary-dark;
+            margin: 0 2.5rem;
+            padding: 0 1.8rem;
+            color: $color-primary-dark;
+
+            &.active {
+                color: $color-white;
+                background-color: $color-primary-dark;
+            }
+        }
+    }
+
+    #products-nav {
+        line-height: 1.3;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 3rem -2.5rem;
+
+        .nav-link {
+            display: inline-block;
+            padding: 0 2.5rem;
+            color: $color-text;
+
+            &.active {
+                color: $color-primary-light;
+            }
+        }
+
+        .nav-item:not(:last-child) {
+            border-right: .4rem solid $color-text;
+        }
+    }
+}

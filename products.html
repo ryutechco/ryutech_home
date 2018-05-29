@@ -8,7 +8,7 @@ lang: en
 <!-- PRODUCTS -->
 <section id="products">
     <div class="container">
-        <ul class="nav">
+        <ul id="category-nav" class="nav">
             {% for category in site.data.products %}
                 <li class="nav-item">
                     <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ category.id }}">{{ category.title }}</a>
@@ -19,7 +19,7 @@ lang: en
         <div class="tab-content">
             {% for category in site.data.products %}
                 <div class="tab-pane fade {% if forloop.first == true %}show active{% endif %}" id="{{ category.id }}">
-                    <ul class="nav">
+                    <ul id="products-nav" class="nav">
                         {% for item in category.sub-content %}
                             <li class="nav-item">
                                 <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ item.id }}">{{ item.title }}</a>

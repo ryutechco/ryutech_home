@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ site.url }}/css/fontawesome-free-5.0.4/css/fontawesome-all.min.css">
 
     <link href='{{ site.url }}/css/bootstrap.min.css' rel='stylesheet'>
-    <link href='{{ site.url }}/css/main.css' rel='stylesheet'>
+    <link href="{{ site.url }}/css/main.css?{{site.time | date: '%s%N'}}" rel="stylesheet">
 
     <script src='{{ site.url }}/js/modernizr.js'></script>
 </head>
