@@ -135,79 +135,108 @@
   sub-content:
     - title: New Genius
       id: new-genius
-      content: "<p>
-                New Genius is the stand alone device for the serial communication with the Engine Control Unit (ECU), through the vehicle OBDII socket or via specific diagnostic connectors. It does not require connections to a personal computers or laptop for the management of the serial communication: it has never been so simple and immediate to achieve programming operations of the vehicle stock ECU.
-            </p>
+      content: <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/dimsport-new-genius-e-new-trasdata-master-chiptuning-D_NQ_NP_789954-MLB26544848034_122017-F.jpg">
+                <img src="./images/page_race_newgenius_dongle.png">
+            </div>
+            <div class="col-sm-8">
+                <p>
+                    New Genius is the stand alone device for the serial communication with the Engine Control Unit (ECU), through the vehicle OBDII socket or via specific diagnostic connectors. It does not require connections to a personal computers or laptop for the management of the serial communication&#58; it has never been so simple and immediate to achieve programming operations of the vehicle stock ECU.
+                </p>
 
-            <p>
-                Intuitive operations to maximize the ease of use:New Genius is a true asset for every tuner thanks to the impossibility to perform wrong operations. Detailed instructions appear on the screen and drive the tuner until the vehicle is programmed.
-            </p>
+                <p>
+                    Intuitive operations to maximize the ease of use:New Genius is a true asset for every tuner thanks to the impossibility to perform wrong operations. Detailed instructions appear on the screen and drive the tuner until the vehicle is programmed.
+                </p>
 
-            <p>
-                Highest safety standards for the most extensive reliability during working process: before programming the vehicle, New Genius verifies the size of the file and the checksum integrity/congruence. In addition, should the programming procedure be interrupted (example: connector unplugged), the device would recover the communication and automatically complete it. Several additional features integrate the conventional operations, like the possibility to reset faulty codes tied to the ECU programming, the reading and automatic writing of the injector settings, counters reset, etc. In order to meet and fulfil the assorted inquiries presented by professionals, New Genius has been conceived as a flexible device, configured to support from a single, specific application to the most complete range of vehicles provided with engine control units.
-            </p>
+                <p>
+                    Highest safety standards for the most extensive reliability during working process&#58; before programming the vehicle, New Genius verifies the size of the file and the checksum integrity/congruence. In addition, should the programming procedure be interrupted (example&#58; connector unplugged), the device would recover the communication and automatically complete it. Several additional features integrate the conventional operations, like the possibility to reset faulty codes tied to the ECU programming, the reading and automatic writing of the injector settings, counters reset, etc. In order to meet and fulfil the assorted inquiries presented by professionals, New Genius has been conceived as a flexible device, configured to support from a single, specific application to the most complete range of vehicles provided with engine control units.
+                </p>
+            </div>
+        </div>
 
-            <p>
-                Dimsport provides its console with a standard OBDII socket; should this not be available an additional range of dedicated connectors would permit tuning operations via diagnostic socket.
-            </p>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    Dimsport provides its console with a standard OBDII socket; should this not be available an additional range of dedicated connectors would permit tuning operations via diagnostic socket.
+                </p>
 
-            <p>
-                Don't miss any update! New developments are constantly released to extend the range of vehicles supported: an improvement achieved thanks to the commitment of several groups of technicians and partnerships. Subscriptions and upgrades to enhance its technical features are performed through quick online updates. Not just a black box connecting the vehicle OBDII socket to a computer, but an independent device for serial reading and programming, practical and versatile. Why settling for a black box when you can have New Genius instead?
-            </p>"
+                <p>
+                    Don't miss any update! New developments are constantly released to extend the range of vehicles supported&#58; an improvement achieved thanks to the commitment of several groups of technicians and partnerships. Subscriptions and upgrades to enhance its technical features are performed through quick online updates. Not just a black box connecting the vehicle OBDII socket to a computer, but an independent device for serial reading and programming, practical and versatile. Why settling for a black box when you can have New Genius instead?
+                </p>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/page_dimsport.jpg">
+            </div>
+        </div>
 
     - title: New Trasdata
       id: new-transdata
-      content: "<p>
-                New Trasdata is a unique tool supporting all microprocessors utilized by any kind of vehicles , for reading and programming operations in BDM, BOOT, JTAG, NBD and BAM mode.<br>
-                When the ECU microprocessor (CPU) is provided by “anti-tuning” feature, a software patch realised by New Trasdata unlocks the OBDII communication, which is therefore restored and supported.
-            </p>
+      content: <p>
+            New Trasdata is a unique tool supporting all microprocessors utilized by any kind of vehicles , for reading and programming operations in BDM, BOOT, JTAG, NBD and BAM mode.<br>
+            When the ECU microprocessor (CPU) is provided by “anti-tuning” feature, a software patch realised by New Trasdata unlocks the OBDII communication, which is therefore restored and supported.
+        </p>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>The list of microprocessors (CPU) now includes:</p>
 
-            <p>The list of microprocessors (CPU) now includes:</p>
+                <ul>
+                    <li>Motorola MPC5xx (BDM mode)</li>
+                    <li>Motorola MC68xxx (BDM mode)</li>
+                    <li>Motorola MPC55xx (JTAG mode)</li>
+                    <li>Renesas SH705x (AUD/BOOT mode)</li>
+                    <li>Mitsubishi MH72xx/MH82xx (BOOT mode)</li>
+                    <li>Infineon Tricore (BOOT mode)</li>
+                    <li>ST Microelectronics ST10xxx (BOOT mode)</li>
+                    <li>Motorola HC12 (BDM mode)</li>
+                    <li>Renesas M32R (BOOT mode)</li>
+                    <li>Nec 76F00xx (NBD mode)</li>
+                    <li>Freescale/ST MPC56xx SPC56x (JTAG mode)</li>
+                    <li>Freescale/ST SPC5777F (BAM mode)</li>
+                </ul>
+            </div>
 
-            <ul>
-                <li>Motorola MPC5xx (BDM mode)</li>
-                <li>Motorola MC68xxx (BDM mode)</li>
-                <li>Motorola MPC55xx (JTAG mode)</li>
-                <li>Renesas SH705x (AUD/BOOT mode)</li>
-                <li>Mitsubishi MH72xx/MH82xx (BOOT mode)</li>
-                <li>Infineon Tricore (BOOT mode)</li>
-                <li>ST Microelectronics ST10xxx (BOOT mode)</li>
-                <li>Motorola HC12 (BDM mode)</li>
-                <li>Renesas M32R (BOOT mode)</li>
-                <li>Nec 76F00xx (NBD mode)</li>
-                <li>Freescale/ST MPC56xx SPC56x (JTAG mode)</li>
-                <li>Freescale/ST SPC5777F (BAM mode)</li>
-            </ul>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/Race_NewTrasdata_sx.jpg">
+            </div>
+        </div>
 
-            <p>
-                <b>Few easy steps to get to the core:</b> ​New Trasdata allows the reading and programming of the whole content of the ECU: microprocessor (CPU), flash Eprom and serial Eeprom. A wide variety of operations is therefore supported: after the initial reading, it is always possible to retrieve the original ECU content even in the case of blocking (back-up). This tool also perform autonomous checksum recalculations to ensure normal engine working conditions after the modification. The operations can be performed without any physical soldering/desoldering intervention: a metal positioning frame provided with specific terminal adapters create the connection between the ECU board and the tool. In specific cases, it is possible to perform reading/writing operations without even opening the ECU.
-            </p>
+        <p>
+            <b>Few easy steps to get to the core:</b> ​New Trasdata allows the reading and programming of the whole content of the ECU&#58; microprocessor (CPU), flash Eprom and serial Eeprom. A wide variety of operations is therefore supported&#58; after the initial reading, it is always possible to retrieve the original ECU content even in the case of blocking (back-up). This tool also perform autonomous checksum recalculations to ensure normal engine working conditions after the modification. The operations can be performed without any physical soldering/desoldering intervention&#58; a metal positioning frame provided with specific terminal adapters create the connection between the ECU board and the tool. In specific cases, it is possible to perform reading/writing operations without even opening the ECU.
+        </p>
 
-            <p>
-                <b>A must-have tool for reading/writing bench operating:</b> ​specific functions conceived for the tuning field like the mentioned reading of the whole ECU firmware, or the self-identification of the engine maps and important additional parameters (even if located in different components of the ECU), confirm New Trasdata as the leading tool available today on the market for reading and programming bench operations.
-            </p>
+        <p>
+            <b>A must-have tool for reading/writing bench operating:</b> ​specific functions conceived for the tuning field like the mentioned reading of the whole ECU firmware, or the self-identification of the engine maps and important additional parameters (even if located in different components of the ECU), confirm New Trasdata as the leading tool available today on the market for reading and programming bench operations.
+        </p>
 
-            <p>One tool - available in both master and slave versions - to support all microprocessors in the automotive field.</p>"
+        <p>One tool - available in both master and slave versions - to support all microprocessors in the automotive field.</p>
 
     - title: Race EVO
       id: race-evo
-      content: "<p>
-                Race Evo is a range of remapping software developed by Dimsport (available in three different versions. ​<b>STANDARD</b>,​ ​<b>PLUS</b> and ​<b>FULL​</b>) allowing the optimization and the recalibration of the relevant engine working parameters stored into the ECU with simple and intuitive operations. The intention is to support the user in his tuning purposes with a multilevel, professional application, for the development of better engine performances and the reduction of the fuel consumption. The internal structure of the software collects data and information organizing their visualization in a functional database; a USB logic key (dongle) protects the user against third parts’ unauthorized access.
-            </p>
+      content: <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/page_race_evo.png">
+            </div>
+            <div class="col-sm-8">
+                <p>
+                    Race Evo is a range of remapping software developed by Dimsport (available in three different versions. ​<b>STANDARD</b>,​ ​<b>PLUS</b> and ​<b>FULL​</b>) allowing the optimization and the recalibration of the relevant engine working parameters stored into the ECU with simple and intuitive operations. The intention is to support the user in his tuning purposes with a multilevel, professional application, for the development of better engine performances and the reduction of the fuel consumption. The internal structure of the software collects data and information organizing their visualization in a functional database; a USB logic key (dongle) protects the user against third parts’ unauthorized access.
+                </p>
+            </div>
+        </div>
 
-            <p><b>NEW 'OPTIONS' MAKE RACE EVO YOUR ALLY IN VEHICLE DIAGNOSTICS!</b></p>
+        <p><b>NEW 'OPTIONS' MAKE RACE EVO YOUR ALLY IN VEHICLE DIAGNOSTICS!</b></p>
 
-            <p>
-                Race Evo software platform recently got updated with the introduction of the so-called ‘OPTIONS’, specific features added for the electronic management of parameters frequently requested by Professionals in their everyday’s calibration work.
-            </p>
+        <p>
+            Race Evo software platform recently got updated with the introduction of the so-called ‘OPTIONS’, specific features added for the electronic management of parameters frequently requested by Professionals in their everyday’s calibration work.
+        </p>
 
-            <p>
-                Race Evo software joins the diagnostic tools already in use in the workshops, allowing the operator to carry out targeted operations on individual trouble codes stored in the engine control unit reducing intervention time and costs. Race Evo ‘Options’ act in the core of the problem helping Professionals to selectively operate only when needed, even avoiding end customers to have an entire package of components replaced, in some cases.
-            </p>
+        <p>
+            Race Evo software joins the diagnostic tools already in use in the workshops, allowing the operator to carry out targeted operations on individual trouble codes stored in the engine control unit reducing intervention time and costs. Race Evo ‘Options’ act in the core of the problem helping Professionals to selectively operate only when needed, even avoiding end customers to have an entire package of components replaced, in some cases.
+        </p>
 
-            <p>
-                Not only maps and setting files, then: thanks to the newly released “Options”, now Race Evo also includes the possibility to disable EGR (exhaust gas recirculation), DPF (diesel particulate filter), ADBLUE, TVA (throttle valve actuator), SWIRL (intake manifold swirl flaps), CAT (catalytic converter), and enables the DTC reset (diagnostic trouble codes) referred to the same components.
-            </p>"
+        <p>
+            Not only maps and setting files, then&#58; thanks to the newly released “Options”, now Race Evo also includes the possibility to disable EGR (exhaust gas recirculation), DPF (diesel particulate filter), ADBLUE, TVA (throttle valve actuator), SWIRL (intake manifold swirl flaps), CAT (catalytic converter), and enables the DTC reset (diagnostic trouble codes) referred to the same components.
+        </p>
 
     - title: Application list
       id: application-list-2
@@ -218,31 +247,39 @@
   sub-content:
     - title: How it works
       id: how-it-works-dynometer
-      content: <p>
-                Dynamometers are used in Tuning and measurement of Power for automotive industries. There are many types of dynamometer in the market. What we offer is a quad roller rolling road dynamometer. The power is measured from the torque at the wheel corresponding to the RPM. For tuning, the dynamometer gives the feedback to tuners on the performances of the engine real time at any given target loads or full power run. The dyno is equipped with electromagnetic brake (retarder) that can varies the load at any given rpm to give the precise load simulation as if the car is run on real roads.
-            </p>
+      content: <div class="row">
+            <div class="col-sm-7">
+                <p>
+                    Dynamometers are used in Tuning and measurement of Power for automotive industries. There are many types of dynamometer in the market. What we offer is a quad roller rolling road dynamometer. The power is measured from the torque at the wheel corresponding to the RPM. For tuning, the dynamometer gives the feedback to tuners on the performances of the engine real time at any given target loads or full power run. The dyno is equipped with electromagnetic brake (retarder) that can varies the load at any given rpm to give the precise load simulation as if the car is run on real roads.
+                </p>
 
-            <p>
-                Dyno Developments precision dynamometer has ultra Fast electronics that allow the Dyno to be updated up to 50,000 times a second. This speed of load control means the Dyno will accurately hold load and allow you to tune engines perfectly.
-            </p>
+                <p>
+                    Dyno Developments precision dynamometer has ultra Fast electronics that allow the Dyno to be updated up to 50,000 times a second. This speed of load control means the Dyno will accurately hold load and allow you to tune engines perfectly.
+                </p>
+            </div>
 
-            <ul>
-                <li>360 pulses per revolution of the roller for high resolution of speed</li>
-                <li>16 million instructions per second inside the Dyno electronics</li>
-                <li>Retarder update speeds up to 50,000 times a second</li>
-            </ul>
+            <div class="col-sm-5 d-flex flex-column align-items-center">
+                <img src="./images/qt5.jpg">
+            </div>
+        </div>
 
-            <p>
-                The retarders are the best in the industry and can hold 1200 hp each. Modular electronics design means easy upgrade path and integration of third party tuning equipment.
-            </p>
+        <ul>
+            <li>360 pulses per revolution of the roller for high resolution of speed</li>
+            <li>16 million instructions per second inside the Dyno electronics</li>
+            <li>Retarder update speeds up to 50,000 times a second</li>
+        </ul>
 
-            <p>The rollers are precisely CNC machined to maximise the traction at the wheels.</p>
+        <p>
+            The retarders are the best in the industry and can hold 1200 hp each. Modular electronics design means easy upgrade path and integration of third party tuning equipment.
+        </p>
 
-            <p>
-                The dyno is constantly being developed to have higher functions and extensions. This means the upgrades will be available for current models.
-            </p>
+        <p>The rollers are precisely CNC machined to maximise the traction at the wheels.</p>
 
-            <p>Our dyno comes with everything ready to run out of the box.</p>
+        <p>
+            The dyno is constantly being developed to have higher functions and extensions. This means the upgrades will be available for current models.
+        </p>
+
+        <p>Our dyno comes with everything ready to run out of the box.</p>
 
     - title: 2WD Adaptive load
       id: 2wd-adaptive-load
