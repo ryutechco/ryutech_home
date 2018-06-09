@@ -21,9 +21,15 @@ lang: en
                 <div class="tab-pane fade {% if forloop.first == true %}show active{% endif %}" id="{{ category.id }}">
                     <ul id="products-nav" class="nav">
                         {% for item in category.sub-content %}
-                            <li class="nav-item">
-                                <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ item.id }}">{{ item.title }}</a>
-                            </li>
+                            {% if item.link == nil %}
+                                <li class="nav-item">
+                                    <a class="nav-link {% if forloop.first == true %}active{% endif %}" data-toggle="pill" href="#{{ item.id }}">{{ item.title }}</a>
+                                </li>
+                            {% else %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+                                </li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
 

@@ -54,7 +54,8 @@
             </p>
 
             <p>
-                The world of cars has evolved giving new space to supercharged Petrol engines, which are increasingly common in small to medium-sized vehicles. The approach chosen for Rapid TPM allows for customised engine function, by analysing various signals such as air flow, intake manifold pressure, turbo pressure and engine RPM.    
+                <img src='/images/add-on-01.png' style='float:right'>
+                The world of cars has evolved giving new space to supercharged Petrol engines, which are increasingly common in small to medium-sized vehicles. The approach chosen for Rapid TPM allows for customised engine function, by analysing various signals such as air flow, intake manifold pressure, turbo pressure and engine RPM.
             </p>
 
             <p>
@@ -70,6 +71,7 @@
             </p>
 
             <p>
+                <img src='/images/add-on-02.png' style='float:left; margin-right: 2rem'>
                 <b>ONE SINGLE MODULE FOR ALL APPLICATIONS</b>
             </p>
 
@@ -128,7 +130,7 @@
 
     - title: Application list
       id: application-list-1
-      content: application list
+      link: http://www.dimsport.it/en/tuning-line/rapid
 
 - title: ECU Remapping tools
   id: ecu-tools
@@ -240,7 +242,7 @@
 
     - title: Application list
       id: application-list-2
-      content: Application list content
+      link: http://www.dimsport.it/en/tuning-line/race
 
 - title: Dynamometer
   id: dynamometer
