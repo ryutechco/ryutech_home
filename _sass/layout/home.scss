@@ -71,6 +71,19 @@
     }
 }
 
+#promo {
+    .promo-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            max-height: 20rem;
+            max-width: 30%;
+        }
+    }
+}
+
 #git {
     padding-bottom: 0;
     margin-bottom: -5rem;
