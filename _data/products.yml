@@ -54,7 +54,7 @@
             </p>
 
             <p>
-                <img src='.images/add-on-01.png' style='float:right'>
+                <img src='./images/add-on-01.png' style='float:right'>
                 The world of cars has evolved giving new space to supercharged Petrol engines, which are increasingly common in small to medium-sized vehicles. The approach chosen for Rapid TPM allows for customised engine function, by analysing various signals such as air flow, intake manifold pressure, turbo pressure and engine RPM.
             </p>
 
@@ -71,7 +71,7 @@
             </p>
 
             <p>
-                <img src='.images/add-on-02.png' style='float:left; margin-right: 2rem'>
+                <img src='./images/add-on-02.png' style='float:left; margin-right: 2rem'>
                 <b>ONE SINGLE MODULE FOR ALL APPLICATIONS</b>
             </p>
 
