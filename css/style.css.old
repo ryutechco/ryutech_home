@@ -103,27 +103,27 @@ h1, h2, h3, h4 {
 }
 
 .bg-1 {
-  background: url(../images/bg-1.jpg) center center no-repeat;
+  background: url(..images/bg-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-2 {
-  background: url(../images/bg-2.jpg) center center no-repeat;
+  background: url(..images/bg-2.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-3 {
-  background: url(../images/who-we-are-bg.jpg) center center no-repeat;
+  background: url(..images/who-we-are-bg.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-4 {
-  background: url(../images/bg-4.jpg) center center no-repeat;
+  background: url(..images/bg-4.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-5 {
-  background: url(../images/bg-5.jpg) center center no-repeat;
+  background: url(..images/bg-5.jpg) center center no-repeat;
   background-size: cover;
 }
 
