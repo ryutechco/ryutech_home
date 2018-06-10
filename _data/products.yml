@@ -54,7 +54,7 @@
             </p>
 
             <p>
-                <img src='/images/add-on-01.png' style='float:right'>
+                <img src='./images/add-on-01.png' style='float:right'>
                 The world of cars has evolved giving new space to supercharged Petrol engines, which are increasingly common in small to medium-sized vehicles. The approach chosen for Rapid TPM allows for customised engine function, by analysing various signals such as air flow, intake manifold pressure, turbo pressure and engine RPM.
             </p>
 
@@ -71,7 +71,7 @@
             </p>
 
             <p>
-                <img src='/images/add-on-02.png' style='float:left; margin-right: 2rem'>
+                <img src='./images/add-on-02.png' style='float:left; margin-right: 2rem'>
                 <b>ONE SINGLE MODULE FOR ALL APPLICATIONS</b>
             </p>
 
@@ -148,11 +148,11 @@
                 </p>
 
                 <p>
-                    Intuitive operations to maximize the ease of use:New Genius is a true asset for every tuner thanks to the impossibility to perform wrong operations. Detailed instructions appear on the screen and drive the tuner until the vehicle is programmed.
+                    <b>Intuitive operations to maximize the ease of use&#58;</b> New Genius is a true asset for every tuner thanks to the impossibility to perform wrong operations. Detailed instructions appear on the screen and drive the tuner until the vehicle is programmed.
                 </p>
 
                 <p>
-                    Highest safety standards for the most extensive reliability during working process&#58; before programming the vehicle, New Genius verifies the size of the file and the checksum integrity/congruence. In addition, should the programming procedure be interrupted (example&#58; connector unplugged), the device would recover the communication and automatically complete it. Several additional features integrate the conventional operations, like the possibility to reset faulty codes tied to the ECU programming, the reading and automatic writing of the injector settings, counters reset, etc. In order to meet and fulfil the assorted inquiries presented by professionals, New Genius has been conceived as a flexible device, configured to support from a single, specific application to the most complete range of vehicles provided with engine control units.
+                    <b>Highest safety standards for the most extensive reliability during working process&#58;</b> before programming the vehicle, New Genius verifies the size of the file and the checksum integrity/congruence. In addition, should the programming procedure be interrupted (example&#58; connector unplugged), the device would recover the communication and automatically complete it. Several additional features integrate the conventional operations, like the possibility to reset faulty codes tied to the ECU programming, the reading and automatic writing of the injector settings, counters reset, etc. In order to meet and fulfil the assorted inquiries presented by professionals, New Genius has been conceived as a flexible device, configured to support from a single, specific application to the most complete range of vehicles provided with engine control units.
                 </p>
             </div>
         </div>
@@ -164,7 +164,7 @@
                 </p>
 
                 <p>
-                    Don't miss any update! New developments are constantly released to extend the range of vehicles supported&#58; an improvement achieved thanks to the commitment of several groups of technicians and partnerships. Subscriptions and upgrades to enhance its technical features are performed through quick online updates. Not just a black box connecting the vehicle OBDII socket to a computer, but an independent device for serial reading and programming, practical and versatile. Why settling for a black box when you can have New Genius instead?
+                    <b>Don't miss any update!</b> New developments are constantly released to extend the range of vehicles supported&#58; an improvement achieved thanks to the commitment of several groups of technicians and partnerships. Subscriptions and upgrades to enhance its technical features are performed through quick online updates. Not just a black box connecting the vehicle OBDII socket to a computer, but an independent device for serial reading and programming, practical and versatile. Why settling for a black box when you can have New Genius instead?
                 </p>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-center">
@@ -174,10 +174,17 @@
 
     - title: New Trasdata
       id: new-transdata
-      content: <p>
-            New Trasdata is a unique tool supporting all microprocessors utilized by any kind of vehicles , for reading and programming operations in BDM, BOOT, JTAG, NBD and BAM mode.<br>
-            When the ECU microprocessor (CPU) is provided by “anti-tuning” feature, a software patch realised by New Trasdata unlocks the OBDII communication, which is therefore restored and supported.
-        </p>
+      content: <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/new-genius-logo.png">
+            </div>
+            <div class="col-sm-8">
+                <p>
+                    New Trasdata is a unique tool supporting all microprocessors utilized by any kind of vehicles , for reading and programming operations in BDM, BOOT, JTAG, NBD and BAM mode.<br>
+                    When the ECU microprocessor (CPU) is provided by “anti-tuning” feature, a software patch realised by New Trasdata unlocks the OBDII communication, which is therefore restored and supported.
+                </p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-8">
                 <p>The list of microprocessors (CPU) now includes:</p>
@@ -254,10 +261,6 @@
                 <p>
                     Dynamometers are used in Tuning and measurement of Power for automotive industries. There are many types of dynamometer in the market. What we offer is a quad roller rolling road dynamometer. The power is measured from the torque at the wheel corresponding to the RPM. For tuning, the dynamometer gives the feedback to tuners on the performances of the engine real time at any given target loads or full power run. The dyno is equipped with electromagnetic brake (retarder) that can varies the load at any given rpm to give the precise load simulation as if the car is run on real roads.
                 </p>
-
-                <p>
-                    Dyno Developments precision dynamometer has ultra Fast electronics that allow the Dyno to be updated up to 50,000 times a second. This speed of load control means the Dyno will accurately hold load and allow you to tune engines perfectly.
-                </p>
             </div>
 
             <div class="col-sm-5 d-flex flex-column align-items-center">
@@ -265,47 +268,68 @@
             </div>
         </div>
 
-        <ul>
-            <li>360 pulses per revolution of the roller for high resolution of speed</li>
-            <li>16 million instructions per second inside the Dyno electronics</li>
-            <li>Retarder update speeds up to 50,000 times a second</li>
-        </ul>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/dyno-developments-logo.jpg" style="margin-bottom:2rem">
+                <img src="./images/dyno.png">
+            </div>
 
-        <p>
-            The retarders are the best in the industry and can hold 1200 hp each. Modular electronics design means easy upgrade path and integration of third party tuning equipment.
-        </p>
+            <div class="col-sm-8">
+                <p>
+                    Dyno Developments precision dynamometer has ultra Fast electronics that allow the Dyno to be updated up to 50,000 times a second. This speed of load control means the Dyno will accurately hold load and allow you to tune engines perfectly.
+                </p>
 
-        <p>The rollers are precisely CNC machined to maximise the traction at the wheels.</p>
+                <ul>
+                    <li>360 pulses per revolution of the roller for high resolution of speed</li>
+                    <li>16 million instructions per second inside the Dyno electronics</li>
+                    <li>Retarder update speeds up to 50,000 times a second</li>
+                </ul>
 
-        <p>
-            The dyno is constantly being developed to have higher functions and extensions. This means the upgrades will be available for current models.
-        </p>
+                <p>
+                    The retarders are the best in the industry and can hold 1200 hp each. Modular electronics design means easy upgrade path and integration of third party tuning equipment.
+                </p>
 
-        <p>Our dyno comes with everything ready to run out of the box.</p>
+                <p>The rollers are precisely CNC machined to maximise the traction at the wheels.</p>
+
+                <p>
+                    The dyno is constantly being developed to have higher functions and extensions. This means the upgrades will be available for current models.
+                </p>
+
+                <p>Our dyno comes with everything ready to run out of the box.</p>
+            </div>
+        </div>
 
     - title: 2WD Adaptive load
       id: 2wd-adaptive-load
       content: <p>
-              The DD Precision 2WD is a very versatile machine, capable of running any 2wd vehicle including Motorcycles, Quad Bikes and Go Karts.
-          </p>
+            The DD Precision 2WD is a very versatile machine, capable of running any 2wd vehicle including Motorcycles, Quad Bikes and Go Karts.
+        </p>
 
-          <p>The function includes:</p>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>The function includes:</p>
+                <ul>
+                    <li>Can run very low power up to 1200 Horsepower at the wheels</li>
+                    <li>Test Cars, Trucks, RV, Go Karts, Quad Bikes and Motorcycles</li>
+                    <li>Measure HP, Torque Time, Tractive effort rpm etc</li>
+                    <li>Measure AFR / Lambda</li>
+                    <li>Automatic weather station Air Temperature Correction</li>
+                    <li>Measure vacuum / Boost</li>
+                    <li>Thermocouple / EGT channels</li>
+                    <li>Built in Knock detection</li>
+                    <li>Measure RPM direct from engine / Roller speed</li>
+                    <li>Ramp Mode for Power Graphing</li>
+                    <li>Steady State mode for fine engine tuning</li>
+                    <li>2WD Dyno can be upgraded to a 4WD Dyno</li>
+                    <li>The Dyno uses Intelligent Adaptive load control and will hold load perfectly everytime, very useful for engine mappers</p>
+                </ul>
+            </div>
 
-          <ul>
-              <li>Can run very low power up to 1200 Horsepower at the wheels</li>
-              <li>Test Cars, Trucks, RV, Go Karts, Quad Bikes and Motorcycles</li>
-              <li>Measure HP, Torque Time, Tractive effort rpm etc</li>
-              <li>Measure AFR / Lambda</li>
-              <li>Automatic weather station Air Temperature Correction</li>
-              <li>Measure vacuum / Boost</li>
-              <li>Thermocouple / EGT channels</li>
-              <li>Built in Knock detection</li>
-              <li>Measure RPM direct from engine / Roller speed</li>
-              <li>Ramp Mode for Power Graphing</li>
-              <li>Steady State mode for fine engine tuning</li>
-              <li>2WD Dyno can be upgraded to a 4WD Dyno</li>
-              <li>The Dyno uses Intelligent Adaptive load control and will hold load perfectly everytime, very useful for engine mappers</p>
-          </ul>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/2wd-good.jpg" style="margin-bottom:2rem">
+                <img src="./images/2wd-small.jpg">
+            </div>
+        </div>
 
     - title: 4WD Adaptive load
       id: 4wd-adaptive-load
@@ -313,24 +337,32 @@
               The DD Precision 4WD is a very versatile machine, capable of running any 2wd or 4wd vehicle including Motorcycles, Quad Bikes and Go Karts.
           </p>
 
-          <p>The function includes:</p>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>The function includes:</p>
+                <ul>
+                    <li>Can run very low power up to 2400 Horsepower at the wheels</li>
+                    <li>Runs Front Wheel Drive, Rear Wheel Drive, Four Wheel Drive</li>
+                    <li>Test Cars, Trucks, RV, Go Karts, Quad Bikes and Motorcycles</li>
+                    <li>Measure HP, Torque Time, Tractive effort rpm etc</li>
+                    <li>Measure AFR / Lambda</li>
+                    <li>Automatic weather station Air Temperature Correction</li>
+                    <li>Measure vacuum / Boost</li>
+                    <li>Thermocouple / EGT channels</li>
+                    <li>Built in Knock detection</li>
+                    <li>Measure RPM direct from engine / Roller speed</li>
+                    <li>Ramp Mode for Power Graphing</li>
+                    <li>Steady State mode for fine engine tuning</li>
+                    <li>Fine syncronisation of road speed between front and rear rollers</li>
+                    <li>Optional 4WD Belt to lock rollers together (also enables 2wd cars to be tested with no ABS or Traction Stability faults)</li>
+                    <li>The Dyno uses Intelligent Adaptive load control and will hold load perfectly everytime, very useful for engine mappers</li>
+                </ul>
 
-          <ul>
-              <li>Can run very low power up to 2400 Horsepower at the wheels</li>
-              <li>Runs Front Wheel Drive, Rear Wheel Drive, Four Wheel Drive</li>
-              <li>Test Cars, Trucks, RV, Go Karts, Quad Bikes and Motorcycles</li>
-              <li>Measure HP, Torque Time, Tractive effort rpm etc</li>
-              <li>Measure AFR / Lambda</li>
-              <li>Automatic weather station Air Temperature Correction</li>
-              <li>Measure vacuum / Boost</li>
-              <li>Thermocouple / EGT channels</li>
-              <li>Built in Knock detection</li>
-              <li>Measure RPM direct from engine / Roller speed</li>
-              <li>Ramp Mode for Power Graphing</li>
-              <li>Steady State mode for fine engine tuning</li>
-              <li>Fine syncronisation of road speed between front and rear rollers</li>
-              <li>Optional 4WD Belt to lock rollers together (also enables 2wd cars to be tested with no ABS or Traction Stability faults)</li>
-              <li>The Dyno uses Intelligent Adaptive load control and will hold load perfectly everytime, very useful for engine mappers</li>
-          </ul>
+                <p>Upgrades from 2WD Precision dyno to 4WD is also available.</p>
+            </div>
 
-          <p>Upgrades from 2WD Precision dyno to 4WD is also available.</p>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <img src="./images/evo-small.jpg" style="margin-bottom:2rem">
+                <img src="./images/gtr-small.jpg">
+            </div>
+        </div>
