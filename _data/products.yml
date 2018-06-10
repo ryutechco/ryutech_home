@@ -5,8 +5,8 @@
       id: rapid
       content: <div class="row">
                 <div class="col-sm-4 d-flex flex-column align-items-center">
-                    <img src=".images/RAPID_Linea_Piatto.png">
-                    <img src=".images/page_rapid_TPM.png">
+                    <img src="./images/RAPID_Linea_Piatto.png">
+                    <img src="./images/page_rapid_TPM.png">
                 </div>
                 <div class="col-sm-8">
                     <h2>THE EVOLUTION OF RAPID AUXILIARY MODULES FROM 1995 TO TODAY</h2>
@@ -139,8 +139,8 @@
       id: new-genius
       content: <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/dimsport-new-genius-e-new-trasdata-master-chiptuning-D_NQ_NP_789954-MLB26544848034_122017-F.jpg">
-                <img src=".images/page_race_newgenius_dongle.png">
+                <img src="./images/dimsport-new-genius-e-new-trasdata-master-chiptuning-D_NQ_NP_789954-MLB26544848034_122017-F.jpg">
+                <img src="./images/page_race_newgenius_dongle.png">
             </div>
             <div class="col-sm-8">
                 <p>
@@ -168,7 +168,7 @@
                 </p>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/page_dimsport.jpg">
+                <img src="./images/page_dimsport.jpg">
             </div>
         </div>
 
@@ -176,7 +176,7 @@
       id: new-transdata
       content: <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/new-transdata-logo.png">
+                <img src="./images/new-transdata-logo.png">
             </div>
             <div class="col-sm-8">
                 <p>
@@ -206,7 +206,7 @@
             </div>
 
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/Race_NewTrasdata_sx.jpg">
+                <img src="./images/Race_NewTrasdata_sx.jpg">
             </div>
         </div>
 
@@ -224,7 +224,7 @@
       id: race-evo
       content: <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/page_race_evo.png">
+                <img src="./images/page_race_evo.png">
             </div>
             <div class="col-sm-8">
                 <p>
@@ -264,14 +264,14 @@
             </div>
 
             <div class="col-sm-5 d-flex flex-column align-items-center">
-                <img src=".images/qt5.jpg">
+                <img src="./images/qt5.jpg">
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/dyno-developments-logo.jpg" style="margin-bottom:2rem">
-                <img src=".images/dyno.png">
+                <img src="./images/dyno-developments-logo.jpg" style="margin-bottom:2rem">
+                <img src="./images/dyno.png">
             </div>
 
             <div class="col-sm-8">
@@ -326,8 +326,8 @@
             </div>
 
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/2wd-good.jpg" style="margin-bottom:2rem">
-                <img src=".images/2wd-small.jpg">
+                <img src="./images/2wd-good.jpg" style="margin-bottom:2rem">
+                <img src="./images/2wd-small.jpg">
             </div>
         </div>
 
@@ -362,7 +362,7 @@
             </div>
 
             <div class="col-sm-4 d-flex flex-column align-items-center">
-                <img src=".images/evo-small.jpg" style="margin-bottom:2rem">
-                <img src=".images/gtr-small.jpg">
+                <img src="./images/evo-small.jpg" style="margin-bottom:2rem">
+                <img src="./images/gtr-small.jpg">
             </div>
         </div>
